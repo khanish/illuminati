@@ -44,10 +44,16 @@ body {
   text-align: center;
   padding-top: 0.9375rem;
   margin-bottom: 1rem; }
+  @media screen and (max-width: 600px) {
+    .welcome__typo {
+      font-size: 18pt; } }
 
 .welcome__msg {
   font-size: 1.2rem;
   font-weight: bold; }
+  @media screen and (max-width: 600px) {
+    .welcome__msg {
+      font-size: .9rem; } }
 
 .intro-title-size1 {
   font-size: 2rem; }
@@ -651,6 +657,7 @@ body {
   padding: .5rem; }
   @media screen and (max-width: 600px) {
     .welcome {
+      top: 35%;
       min-width: 100%; } }
 
 @media screen and (max-width: 750px) and (orientation: landscape) {

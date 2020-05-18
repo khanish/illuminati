@@ -38,12 +38,18 @@
     text-align: center;
     padding-top: 15/16+rem;
     margin-bottom: 1rem;
+    @include responsive($mobile) {
+        font-size: 18pt;
+    }
 }
 
 .welcome__msg {
     font: {
         size: 1.2rem;
         weight: bold;
+    }
+    @include responsive($mobile) {
+        font-size: .9rem;
     }
     
 }
