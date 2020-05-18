@@ -1,0 +1,145 @@
+.header__primary {
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #fff2e7;
+    text-transform: uppercase !important;
+    line-height: 0.5;
+    text-align: center;
+    padding-top: 10/16+rem;
+}
+
+.header__secondary {
+        font-size: 12pt ;
+        font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+        font-weight: 700 ;
+        color: #fff2e7;
+        text-transform: uppercase;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 6px;
+}
+
+.welcome__typo {
+    font-size: 25pt;
+    font-family: 'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+    font-weight: bolder;
+    color: #fff2e7;
+    text-transform: uppercase;
+    line-height: 0.5;
+    text-align: center;
+    padding-top: 15/16+rem;
+    margin-bottom: 1rem;
+}
+
+.welcome__msg {
+    font: {
+        size: 1.2rem;
+        weight: bold;
+    }
+    
+}
+.intro-title-size1 {
+    font-size: 2rem;
+}
+.home-believes__ctn-believe-title {
+    font-size: 14pt;
+    font-weight: 300;
+    letter-spacing: 10/16+rem;
+    margin-bottom: 2rem;
+}
+
+.home-believes__ctn-believe-detail {
+    font: {
+        size: 12pt;
+    }
+    text: {
+        align: center;
+    }
+    margin-bottom: 2rem;
+    padding: 0 .75rem;
+}
+
+.eternal-aoth-head2,
+.eternal-aoth-head1 {
+    color: $color-primary;
+}
+
+.eternal-aoth-head1 {
+    font: {
+        size: 32pt;
+        weight: 400;
+    }
+    letter-spacing: 10px;
+    line-height: 40px;
+}
+
+.eternal-aoth-head2 {
+    font: {
+        size: 20pt;
+        weight: 300;
+    }
+
+    letter-spacing: 7px;
+    line-height: 50px;
+    @include responsive($mobile) {
+        letter-spacing: 2px;
+        
+    }
+}
+
+.home-eternal-oath__cnt-detail {
+    max-width: 600/16+rem;
+    color: $color-grey;
+    font: {
+        size: 1rem
+    }
+    text: {
+        align: center
+    }
+    margin: {
+        bottom: 2rem;
+        top: 2rem;
+    }
+    padding: 1rem;
+}
+
+.testimony-head2 {
+    font-size: 14pt;
+    font-family: 'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+    font-weight: 400;
+    color: #fff2e7;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+    color: $color-primary;
+}
+
+.testimony-head1 {
+    font-size: 18pt;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    font-weight: 600;
+    color: #fff2e7;
+    text-transform: uppercase !important;
+    text-align: center;
+    padding-top: 10/16+rem;
+    color: $color-primary;
+    margin-bottom: 1rem;
+}
+

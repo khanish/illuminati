@@ -1,0 +1,86 @@
+.home-believes__ctn-believe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 25%;
+        align-items: center;
+
+        background: {
+            position: center;
+            size: cover;
+        }
+
+        padding: 2rem;
+        @include responsive("1000px") {
+            padding: 1rem;
+            width: 45%;
+        }
+        @include responsive($mobile) {
+            padding: 1rem;
+            width: 100%;
+            &:not(:last-of-type) {
+                margin: 0;
+            }
+        }
+
+        &-logo {
+            width: 100/16+rem;
+            height: 120/16+rem;
+            margin-bottom: 1rem;
+        }
+
+        &:nth-of-type(1) {
+            background: {
+                image: url('./assests/images/the-pyramid-bckg.jpg');
+            }
+            @include responsive('1000px') {
+                margin: {
+                    right: 2rem;
+                    bottom: 1rem
+                }
+            }
+            @include responsive($mobile) {
+               margin: {
+                   right: 0;
+                   bottom: 0
+               }
+            }
+        }
+
+        &:nth-of-type(2) {
+            background: {
+                image: url('./assests/images/the-eye-bckg.jpg');
+            }
+            @include responsive('1000px') {
+                margin: {
+                    bottom: 1rem
+                }
+            }
+            @include responsive($mobile) {
+                margin: {
+                    bottom: 0
+                }
+            }
+            
+        }
+
+        &:nth-of-type(3) {
+            background: {
+                image: url('./assests/images/the-light-bckg.jpg');
+            }
+            @include responsive("1000px") {
+                margin: {
+                    right: 2rem;
+                }
+            }
+            @include responsive($mobile) {
+                margin-right: 0;
+            }
+        }
+
+        &:nth-of-type(4) {
+            background: {
+                image: url('./assests/images/the-cycle-bckg.jpg');
+            }
+        }
+    }
