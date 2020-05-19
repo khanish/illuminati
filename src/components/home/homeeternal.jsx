@@ -1,5 +1,6 @@
 import React from 'react';
 import oath from '../../assests/images/eternal-oath.jpg'
+import { NavLink } from 'react-router-dom';
 
 function HomeEternalOath() {
     return(
@@ -16,9 +17,9 @@ function HomeEternalOath() {
                     <p className="home-eternal-oath__cnt-detail">
                         Since our origination, Illuminati members have dedicated themselves to the advancement of the human species by taking oaths of commitment. These pledges are a core tradition of the Illuminati, formed as written contracts between a single person and all members of humanity. The first pledge of the Illuminati is called the Eternal Oath.
                     </p>
-                    <a href="#" className="learn-more">
+                    <NavLink to='/eternal-oath' className="learn-more">
                         Learn More
-                    </a>
+                    </NavLink>
                 </div>
             </section>
         </React-Fractor>

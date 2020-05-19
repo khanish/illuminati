@@ -19,7 +19,7 @@
 }
 
 .home-believes__ctn-believe-more {
-    align-self: baseline;
+    //align-self: baseline;
 }
 
 .submit {
@@ -31,4 +31,8 @@
         background-color: $color-grey;
     }
 
+}
+
+.margin-top {
+    margin-top: -.5rem;
 }

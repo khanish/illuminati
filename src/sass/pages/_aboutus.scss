@@ -1,0 +1,189 @@
+//about purpose
+.aboutpurpose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 1rem;
+    position: relative;
+    //height: 100vh;
+    @include responsive($tablet) {
+        padding-top: 9rem;
+    }
+    @include responsive($mobile) {
+        padding-top: 11rem;
+        @media screen and (min-height: 700px) and (max-height: 1200px ) {
+            padding-top: 6rem;
+            //height: 185vh;
+        }
+        @media screen and (min-height: 570px) and (max-height: 650px ) {
+            padding-top: 10rem;
+            //height: 230vh;
+        }
+        @media screen and (min-height: 400px) and (max-height: 569px ) {
+            padding-top: 8rem;
+            //height: 280vh;
+        }
+        @media screen and (orientation: landscape) {
+            padding-top: 10rem;
+            //height: 290vh;
+        }
+        
+    }
+    @include responsive($mobile) {
+        @media screen and (max-height: 325px) {
+            padding-top: 8rem;
+            //height: 300vh;
+        }
+    }
+    
+    &-title {
+        color: $color-primary;
+        font: {
+            size: 1.5rem;
+            style: italic;
+            weight: 600;
+        }
+        max-width: 900/16+rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        line-height: 1;
+    }
+    &-del {
+        color: $color-grey;
+       max-width: 900/16+rem;
+       text-align: center;
+       margin-bottom: 1rem;
+       font: {
+           size: 1.2rem;
+       };
+    }
+    &-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        @include responsive($mobile) {
+            flex-direction: column;
+            @media screen and (orientation: landscape) {
+                flex-direction: row;
+                 justify-content: space-around;
+            }
+        }
+        & .margin-right {
+            margin-right: 4rem;
+            margin-bottom: .5rem;
+            @include responsive($tablet) {
+                margin-right: 2rem;
+            }
+            @include responsive($mobile) {
+                margin-right: 0;
+            }
+        }
+        & .margin-left {
+            margin-left: 4rem;
+            margin-bottom: .5rem;
+            @include responsive($tablet) {
+                margin-left: 2rem;
+            }
+            @include responsive($mobile) {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+//about symbols
+
+.about-symbols {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    padding-top: 2rem;
+    z-index: -1;
+    @include responsive($tablet) {
+        padding-top: 7rem;
+    }
+    @include responsive($mobile) {
+        padding-top: 9rem;
+        @media screen and (orientation: landscape) {
+            padding-top: 3rem;
+        }
+    }
+    &-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+        background-image: linear-gradient(rgba(23, 54, 121, .8), rgba(23, 54, 121, .8)),
+        url('./assests/images/confirm.jpg');
+        background-size: cover;
+        background-position: center, center;
+        background-attachment: scroll;
+        @include responsive($mobile) {
+            padding-bottom: 4rem;
+            background-size: cover;
+             @media screen and (orientation: landscape) {
+                padding-bottom: .5rem
+             }
+        }
+        &__title {
+            padding-top: 4rem;
+            display: inline-block;
+            text-align: center;
+            padding: 0 1rem;
+            @include responsive($mobile) {
+                padding: 3rem .5rem 0;
+            }
+            @include responsive('340px') {
+                padding: 0;
+            }
+            
+            &-1, &-2, &-3 {
+                display: block;
+                font-family: spectral, serif;
+                font-weight: bolder;
+            }
+            &-1, &-3 {
+                font-size: 2.7rem;
+                letter-spacing: 1rem;
+                @include responsive($mobile) {
+                    font-size: 2.2rem;
+                }
+                
+            }
+            &-2 {
+                font-size: 1.8rem;
+                line-height: .5;
+                word-spacing: 1.5rem;
+                letter-spacing: .8rem;
+            }
+        }
+        &__des {
+            max-width: 330/16+rem;
+            font-size: 1.2rem;
+            font-weight: bolder;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-family: serif;
+        }
+        &__symbols {
+            max-width: 600/16+rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            &--img {
+                width: 160/16+rem;
+                height: 160/16+rem;
+                margin: 0 1rem 1rem 0;
+            }
+        }
+    }
+
+}

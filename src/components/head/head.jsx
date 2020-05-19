@@ -6,6 +6,7 @@ import pendulum from '../../assests/images/pendulum.jpg';
 import talisman from '../../assests/images/the-talisman.jpg';
 import ertenalOath from '../../assests/images/eternal-oath.jpg';
 import dodis from '../../assests/images/dodis-authentic.jpg';
+import {NavLink} from 'react-router-dom';
 
 let Head = () => {
     React.useEffect(() => {
@@ -17,6 +18,7 @@ let Head = () => {
         authentic = document.getElementById('authentic'),
         join = document.getElementById('join'),
         contact = document.getElementById('contact'),
+        home = document.getElementById('home'),
         aboutItems = document.querySelectorAll('.mobile__menu--list-item-about-item'),
         aboutItemCtn = document.getElementById('aboutItems'),
         believeItems = document.querySelectorAll('.mobile__menu--list-item-believes-item'),
@@ -46,6 +48,7 @@ let Head = () => {
         })
         join.addEventListener('click', closeMenu);
         contact.addEventListener('click', closeMenu);
+        home.addEventListener('click', closeMenu);
 
         function showAboutSub() {
             aboutItemCtn.style.display = 'block';
@@ -103,49 +106,50 @@ let Head = () => {
 
     }, [])
     const menuItems = [
+        { to: '/', content: 'Home', id: 'home' },
         {to: '', content: 'about us', id: 'about'},
         { to: '', content: 'our believes', id: 'believe' },
         { to: '', content: 'our achieves', id: 'achieve' },
         { to: '', content: 'authentic items', id: 'authentic' },
-        { to: '', content: 'join illumininati', id: 'join' },
-        { to: '', content: 'contact', id: 'contact' },
+        { to: '/join-the-illuminati', content: 'join illumininati', id: 'join' },
+        { to: '/contact-the-illuminati', content: 'contact', id: 'contact' },
     ],
     aboutSub = [
-        { to: '', content: 'purpose of the illuminati' },
-        { to: '', content: 'symbols of the illuminati' },
-        { to: '', content: 'illuminati symbols and marks' },
-        { to: '', content: 'why a secrete society' },
-        { to: '', content: 'wealth of the illuminati' },
-        { to: '', content: 'the age of illuminatiam' },
-        { to: '', content: 'Billionairs giving pledge' },
+        { to: '/purpose-of-the-illuminati', content: 'purpose of the illuminati' },
+        { to: '/illuminati-symbols', content: 'symbols of the illuminati' },
+        { to: '/illuminati-symbols-and-mask', content: 'illuminati symbols and marks' },
+        { to: '/why-a-secrete-society', content: 'why a secrete society' },
+        { to: '/wealth-of-the-illuminati', content: 'wealth of the illuminati' },
+        { to: '/the-age-of-illuminati', content: 'the age of illuminati' },
+        { to: '/billionaires-giving-pledge', content: 'Billionairs giving pledge' },
     ], 
     ourBelievesSub = [
-        { to: '', content: 'the Pyramid' },
-        { to: '', content: 'the eye' },
-        { to: '', content: 'the light' },
-        { to: '', content: 'erternal circle' },
+        { to: '/the-pyramid', content: 'the Pyramid' },
+        { to: '/the-eye', content: 'the eye' },
+        { to: '/the-light', content: 'the light' },
+        { to: '/eternal-circle', content: 'eternal circle' },
     ],
     tenets = [
-        { to: '', content: 'tenet of freedom and believe' },
-        { to: '', content: 'tenet of god and satan' },
-        { to: '', content: 'tenet for money and aboudance' },
-        { to: '', content: 'tenet for value and trade' },
+        { to: '/tenet-of-freedom-and-believe', content: 'tenet of freedom and believe' },
+        { to: '/tenet-of-god-and-satan', content: 'tenet of god and satan' },
+        { to: '/tenet-for-money-and-aboudance', content: 'tenet for money and aboudance' },
+        { to: '/tenet-for-value-and-trade', content: 'tenet for value and trade' },
     ],
     achievesSubs = [
-        { to: '', content: 'Our Global List Agender', src: globalImg, alt: 'the-illuminati-our-global-list-agender' },
-        { to: '', content: 'Pendulum of Power', src: pendulum, alt: 'illuminati-pendulum-of-power' },
+        { to: '/our-global-list-agender', content: 'Our Global List Agender', src: globalImg, alt: 'the-illuminati-our-global-list-agender' },
+        { to: '/pendulum-of-power', content: 'Pendulum of Power', src: pendulum, alt: 'illuminati-pendulum-of-power' },
     ],
     authenticSub = [
-        { to: '', content: 'Illuminati Talisman', src: talisman, alt: 'illuminati-talism' },
-        { to: '', content: 'Erternal Outh', src: ertenalOath, alt: 'illuminati-ertenal-oath' },
-        { to: '', content: 'More Authentic items', src: dodis, alt: 'more-authentic-items' },
+        { to: '/illuminati-talisman', content: 'Illuminati Talisman', src: talisman, alt: 'illuminati-talism' },
+        { to: '/eternal-oath', content: 'Eternal Oath', src: ertenalOath, alt: 'illuminati-ertenal-oath' },
+        { to: '/more-authentic-items', content: 'More Authentic items', src: dodis, alt: 'more-authentic-items' },
     ]
     return (
     <React-Fractor>
     <header className="head">
-        <div className="head__logo">
+        <NavLink to='/' className="head__logo">
             <img src={logo} alt="logo" className="head__logo--img" width='100'  />
-        </div>
+        </NavLink>
         <div className="head__menu">
             {menuItems.map(menuItem =>
                 menuItem.content === 'about us'?
@@ -153,68 +157,66 @@ let Head = () => {
                     <span className="head__menu--anchor-about">
                         {
                             aboutSub.map(
-                            sub => <a href="#" className="head__menu--anchor-about-item" key={sub.content}>{sub.content}</a>
+                            sub => <NavLink to={sub.to} className="head__menu--anchor-about-item" key={sub.content}>{sub.content}</NavLink>
                             )
                         }
                     </span>
                 </a>:
                 menuItem.content === 'our believes'?
-                <a href="#" className="head__menu--anchor" key={menuItem.content}>{menuItem.content}
+                    <a href="#" className="head__menu--anchor" key={menuItem.content}>{menuItem.content}
                     <span className="head__menu--anchor-believe">
                         {
                             ourBelievesSub.map(
-                                sub => <a href="#" className="head__menu--anchor-believe-item" key={sub.content}key={sub.content}>
+                                sub => <NavLink to={sub.to} className="head__menu--anchor-believe-item" key={sub.content}key={sub.content}>
                                     <figure className="head__menu--anchor-believe-item-figure">
                                         <img src={logo2} alt={sub.content} className="head__menu--anchor-believe-item-figure-img"/>
                                         <figcaption className='head__menu--anchor-believe-item-figure-cap' >{sub.content}</figcaption> 
                                     </figure>
-                                </a>
+                                </NavLink>
                             )
                         }
                         <span className="head__menu--anchor-believe-tenet">
                             <span className="head__menu--anchor-believe-tenet-title">The Tenets</span>
                             {
                                 tenets.map(
-                                tenet => <a href="#" className="head__menu--anchor-believe-tenet-item" key={tenet.content}>{tenet.content}</a>
+                                tenet => <NavLink to={tenet.to} className="head__menu--anchor-believe-tenet-item" key={tenet.content}>{tenet.content}</NavLink>
                                     )
                             }
                         </span>
                     </span>
                 </a>:
                menuItem.content === 'our achieves' ?
-                <a href="#" className="head__menu--anchor" key={menuItem.content}>{menuItem.content}
+                    <a href="#" className="head__menu--anchor" key={menuItem.content}>{menuItem.content}
                     <span className="head__menu--anchor-achieves">
                         {
                             achievesSubs.map(
-                            sub => <a href="#" className="head__menu--anchor-achieves-item" key={sub.content} key={sub.content}>
+                            sub => <NavLink to={sub.to} className="head__menu--anchor-achieves-item" key={sub.content} key={sub.content}>
                             <figure className="head__menu--anchor-achieves-item-figure">
                                     <img src={sub.src} alt={sub.content} className="head__menu--anchor-achieves-item-figure-img" />
                                     <figcaption className='head__menu--anchor-achieves-item-figure-cap' >{sub.content}</figcaption>
                             </figure>
-                            </a>
+                            </NavLink>
                         )
                     }
                     </span>
                 </a>:
                 menuItem.content === 'authentic items' ?
-                <a href="#" className="head__menu--anchor" key={menuItem.content}>{menuItem.content}
+                    <a href="#" className="head__menu--anchor" key={menuItem.content}>{menuItem.content}
                     <span className="head__menu--anchor-authentic">
                         {
                             authenticSub.map(
-                            sub => <a href="#" className="head__menu--anchor-authentic-item" key={sub.content} key={sub.content}>
+                            sub => <NavLink to={sub.to} className="head__menu--anchor-authentic-item" key={sub.content} key={sub.content}>
                             <figure className="head__menu--anchor-authentic-item-figure">
                                     <img src={sub.src} alt={sub.content} className="head__menu--anchor-authentic-item-figure-img" />
                                     <figcaption className='head__menu--anchor-authentic-item-figure-cap' >{sub.content}</figcaption>
                             </figure>
-                            </a>
+                            </NavLink>
                         )
                     }
                     </span>
                 </a>:
-                <a href = "#" className = "head__menu--anchor" key = { menuItem.content } > { menuItem.content }
-                </a>
-
-
+                <NavLink to={menuItem.to} className = "head__menu--anchor" key = { menuItem.content } > { menuItem.content }
+                </NavLink>
             )}
             <div className="head__menu--title">
                 <h1 className="header__primary">
@@ -241,52 +243,52 @@ let Head = () => {
                         <span className="mobile__menu--list-item-about" id="aboutItems">
                             {
                                 aboutSub.map(
-                                    sub => <a href="#" className="mobile__menu--list-item-about-item">{sub.content}</a>
+                                    sub => <NavLink to={sub.to} className="mobile__menu--list-item-about-item">{sub.content}</NavLink>
                                 )
                             }
                         </span>
                     </a>:
                     item.content === 'our believes' ?
-                        <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
+                    <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
                         <span className="span">{item.content} &#8659;</span>
                         <span className="mobile__menu--list-item-believes" id="believeItems">
                             {
                                 ourBelievesSub.map(
-                                    sub => <a href="#" className="mobile__menu--list-item-believes-item">{sub.content}</a>
+                                    sub => <NavLink to={sub.to} className="mobile__menu--list-item-believes-item">{sub.content}</NavLink>
                                 )
                             }
                             {
                                 tenets.map(
-                                    sub => <a href="#" className="mobile__menu--list-item-believes-item">{sub.content}</a>
+                                    sub => <NavLink to={sub.to} className="mobile__menu--list-item-believes-item">{sub.content}</NavLink>
                                 )
                             }
                         </span>
                     </a>:
                     item.content === 'our achieves' ?
-                        <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
+                    <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
                         <span className="span">{item.content} &#8659;</span>
                         <span className="mobile__menu--list-item-achieves" id="achieveItems">
                             {
                                 ourBelievesSub.map(
-                                    sub => <a href="#" className="mobile__menu--list-item-achieves-item">{sub.content}</a>
+                                    sub => <NavLink to={sub.to} className="mobile__menu--list-item-achieves-item">{sub.content}</NavLink>
                                 )
                             }
                         </span>
                     </a>: 
                     item.content === 'authentic items' ?
-                        <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
+                    <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
                         <span className="span">{item.content} &#8659;</span>
                         <span className="mobile__menu--list-item-authentic" id="authenticItems">
                             {
                                 ourBelievesSub.map(
-                                    sub => <a href="#" className="mobile__menu--list-item-authentic-item">{sub.content}</a>
+                                    sub => <NavLink to={sub.to} className="mobile__menu--list-item-authentic-item">{sub.content}</NavLink>
                                 )
                             }
                         </span>
                     </a>:
-                    <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
+                    <NavLink to={item.to} className="mobile__menu--list-item" key={item.content} id={item.id}>
                         <span className="span">{item.content}</span>
-                    </a>
+                    </NavLink>
                     )
                 }
             </div>

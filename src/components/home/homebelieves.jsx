@@ -1,19 +1,20 @@
 import React from 'react';
 import logo from '../../assests/images/logo2.png';
+import {NavLink} from 'react-router-dom';
 
 function HomeBelieves() {
     let believes = [
         {
-            title: 'THE PYRAMID', content: 'Money is not the root of all evil,money is the route to all freedom.The selfish pursuit of money is a hollow goal, but the pursuit of the goodness that money can create is one of humanity’s greatest responsibilities.', to: ''
+            title: 'THE PYRAMID', content: 'Money is not the root of all evil,money is the route to all freedom.The selfish pursuit of money is a hollow goal, but the pursuit of the goodness that money can create is one of humanity’s greatest responsibilities.', to: '/the-pyramid'
         },
         {
-            title: 'THE EYE', content: 'Living humans evolve at a rapid pace and continue to advance in ability through study, practice, and self-improvement. The human species is guarded by a coalition of its most elite members called the Illuminati.', to: ''
+            title: 'THE EYE', content: 'Living humans evolve at a rapid pace and continue to advance in ability through study, practice, and self-improvement. The human species is guarded by a coalition of its most elite members called the Illuminati.', to: '/the-eye',
         },
         {
-            title: 'THE LIGHT', content: 'Every human is guided by an inner compass that points toward the Light, revealing truth and direction amidst decisions. All human spiritual beliefs ultimately seek the Light in ways differing only in form and function.', to: ''
+            title: 'THE LIGHT', content: 'Every human is guided by an inner compass that points toward the Light, revealing truth and direction amidst decisions. All human spiritual beliefs ultimately seek the Light in ways differing only in form and function.', to: '/the-light'
         },
         {
-            title: 'THE ETERNAL', content: 'Every human is one part of a larger, eternal design – individual gears in a clock that has no end. Though they may never realize it, a person’s actions have the power to alter the future of the entire world.', to: ''
+            title: 'THE ETERNAL', content: 'Every human is one part of a larger, eternal design – individual gears in a clock that has no end. Though they may never realize it, a person’s actions have the power to alter the future of the entire world.', to: '/eternal-circle'
         },
     ];
 
@@ -32,9 +33,9 @@ function HomeBelieves() {
                                     {believe.content}
                                 </p>
                                 <div className="home-believes__ctn-believe-more">
-                                    <a href="#" className="learn-more">
+                                    <NavLink to={believe.to} className="learn-more">
                                         Learn More
-                                    </a>
+                                    </NavLink>
                                 </div>
                             </div>
                             )

@@ -5,6 +5,7 @@ import hanna from '../../assests/images/HannaD-illuminatiam.jpg';
 import rizwan from '../../assests/images/rizwan-k-illuminatiam-featured.jpg';
 import tony from '../../assests/images/TonyR-illuminatiam.jpg';
 import vg from '../../assests/images/VG-illuminatiam.jpg';
+import {NavLink} from 'react-router-dom';
 
 
 class Testimoney extends Component {
@@ -109,9 +110,9 @@ class Testimoney extends Component {
                         {this.state.testifierDet}
                         </p>
                         <p className="homemain__testimonies--testifier-name">{this.state.testifierName}</p>
-                        <a href="#" className="learn-more">
+                        <NavLink to='/join-the-illuminati' className="learn-more">
                             Join The Illuminati
-                        </a>
+                        </NavLink>
                     </div>
                     
                 </div>

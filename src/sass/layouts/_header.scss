@@ -14,7 +14,9 @@
     }
     height: 25vh;
     position: relative;
+    text-align: center;
     &__logo {
+        display: inline-block;
         height: 50%;
         text-align: center;
         & img {
@@ -41,7 +43,7 @@
             transition: all .3s;
             color: white;
             height: 2rem;
-            &:not(:nth-of-type(2)):not(:nth-of-type(3)):not(:nth-of-type(4)) {
+            &:not(:nth-of-type(5)):not(:nth-of-type(3)):not(:nth-of-type(4)) {
                 position: relative;
             }
 
@@ -62,7 +64,7 @@
                 z-index: 3000;
                 padding: .05rem;
                 color: $color-secondary;
-                &:not(:nth-of-type(2)):not(:nth-of-type(3)):not(:nth-of-type(4)) {
+                &:not(:nth-of-type(3)):not(:nth-of-type(4)):not(:nth-of-type(5)) {
                     transform: scaleY(1.1);
                 }
                 &>.head__menu--anchor-about {
@@ -83,7 +85,7 @@
             &-about {
                 display: none;
                 position: absolute;
-                top: 1.4rem;
+                top: 1.5rem;
                 min-width:250/16+rem;
                 z-index: 3000;
                 transition: all .3s;
@@ -163,9 +165,10 @@
             }
         }
         &--title {
+            position: relative;
             z-index: 10;
             width: 100%;
-            padding: .5rem 0;
+            padding: .25rem 0 .1rem;
             text: {
             align: center;
             }
@@ -173,9 +176,6 @@
             color: $color-secondary;
             }
             position: relative;
-            @include responsive($mobile) {
-                padding: .1rem;
-            }
         }
     }
 }
@@ -193,6 +193,11 @@
     }
     @media screen and (orientation: landscape) {
         top: 1.5rem
+    }
+    @include responsive($mobile) {
+        @media screen and (orientation: landscape) {
+            top: .6rem
+        }
     }
     &__menu {
         width: 100%;
@@ -228,7 +233,7 @@
                 top: 6.2rem;
             }
             @media screen and (orientation: landscape) {
-                top: 4.5rem;
+                top: 3.5rem;
                 height: 100vh;
             }
             &-item {
