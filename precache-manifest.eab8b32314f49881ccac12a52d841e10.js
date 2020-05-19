@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2dd8bd4b52b1ae23f9f62548cc1042cc",
+    "revision": "77d2d0a1a038e50d917946fa78e24af2",
     "url": "/illuminati/index.html"
   },
   {
-    "revision": "e215c6611db2c239e1a4",
+    "revision": "1d2d2f988427c74c2341",
     "url": "/illuminati/static/css/main.224a222e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/illuminati/static/js/2.3de327a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e215c6611db2c239e1a4",
-    "url": "/illuminati/static/js/main.0e7a58d2.chunk.js"
+    "revision": "1d2d2f988427c74c2341",
+    "url": "/illuminati/static/js/main.451f72af.chunk.js"
   },
   {
     "revision": "cf587db54182c56451d3",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/illuminati/static/media/landing5.76f7d8b5.jpg"
   },
   {
-    "revision": "325fd91ff6d1684201081e6801967dc3",
-    "url": "/illuminati/static/media/landing6.325fd91f.jpg"
+    "revision": "0f6df59e8fcb591669f1b9905c67ea7e",
+    "url": "/illuminati/static/media/landing6.0f6df59e.jpg"
   },
   {
     "revision": "bb83745dacc7bbfec3665f37699d6004",
