@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/illuminati/static/css/main.3a94ce8c.chunk.css",
-    "main.js": "/illuminati/static/js/main.3fdf5d76.chunk.js",
-    "main.js.map": "/illuminati/static/js/main.3fdf5d76.chunk.js.map",
+    "main.css": "/illuminati/static/css/main.6b3bef9d.chunk.css",
+    "main.js": "/illuminati/static/js/main.a58c625a.chunk.js",
+    "main.js.map": "/illuminati/static/js/main.a58c625a.chunk.js.map",
     "runtime-main.js": "/illuminati/static/js/runtime-main.79d4ff21.js",
     "runtime-main.js.map": "/illuminati/static/js/runtime-main.79d4ff21.js.map",
     "static/js/2.63ba6828.chunk.js": "/illuminati/static/js/2.63ba6828.chunk.js",
     "static/js/2.63ba6828.chunk.js.map": "/illuminati/static/js/2.63ba6828.chunk.js.map",
     "index.html": "/illuminati/index.html",
-    "precache-manifest.ae4e086efa7351370cb297ec8d2d03ea.js": "/illuminati/precache-manifest.ae4e086efa7351370cb297ec8d2d03ea.js",
+    "precache-manifest.7bce6b98b667bb1f8e0d6aa738078262.js": "/illuminati/precache-manifest.7bce6b98b667bb1f8e0d6aa738078262.js",
     "service-worker.js": "/illuminati/service-worker.js",
-    "static/css/main.3a94ce8c.chunk.css.map": "/illuminati/static/css/main.3a94ce8c.chunk.css.map",
+    "static/css/main.6b3bef9d.chunk.css.map": "/illuminati/static/css/main.6b3bef9d.chunk.css.map",
     "static/js/2.63ba6828.chunk.js.LICENSE.txt": "/illuminati/static/js/2.63ba6828.chunk.js.LICENSE.txt",
     "static/media/CollinH-illuminatiam.jpg": "/illuminati/static/media/CollinH-illuminatiam.9bbcb9f6.jpg",
     "static/media/HannaD-illuminatiam.jpg": "/illuminati/static/media/HannaD-illuminatiam.b0b14bd0.jpg",
@@ -20,14 +20,14 @@
     "static/media/dodis-authentic.jpg": "/illuminati/static/media/dodis-authentic.a9b987ae.jpg",
     "static/media/eternal-oath.jpg": "/illuminati/static/media/eternal-oath.875287c8.jpg",
     "static/media/globalist-agenda.jpg": "/illuminati/static/media/globalist-agenda.dca7aec6.jpg",
-    "static/media/index.css": "/illuminati/static/media/the-pyramid.d943eb38.jpg",
+    "static/media/index.css": "/illuminati/static/media/the-pyramid.9a10cd6d.jpg",
     "static/media/landing1.jpg": "/illuminati/static/media/landing1.41a3c86b.jpg",
-    "static/media/landing2.jpeg": "/illuminati/static/media/landing2.5e8985b9.jpeg",
+    "static/media/landing2.jpeg": "/illuminati/static/media/landing2.81108cd7.jpeg",
     "static/media/landing3.jpg": "/illuminati/static/media/landing3.6f8b5a65.jpg",
     "static/media/landing4.webp": "/illuminati/static/media/landing4.6edf9df2.webp",
-    "static/media/landing5.jpg": "/illuminati/static/media/landing5.0abd79ac.jpg",
-    "static/media/landing6.png": "/illuminati/static/media/landing6.c19d8f28.png",
-    "static/media/landing7.jpg": "/illuminati/static/media/landing7.7c1a134e.jpg",
+    "static/media/landing5.jpg": "/illuminati/static/media/landing5.76f7d8b5.jpg",
+    "static/media/landing6.jpg": "/illuminati/static/media/landing6.325fd91f.jpg",
+    "static/media/landing7.jpg": "/illuminati/static/media/landing7.bb83745d.jpg",
     "static/media/landing8.jpg": "/illuminati/static/media/landing8.dfec4b93.jpg",
     "static/media/logo.png": "/illuminati/static/media/logo.235bbcb1.png",
     "static/media/logo2.png": "/illuminati/static/media/logo2.fd99ade8.png",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.79d4ff21.js",
     "static/js/2.63ba6828.chunk.js",
-    "static/css/main.3a94ce8c.chunk.css",
-    "static/js/main.3fdf5d76.chunk.js"
+    "static/css/main.6b3bef9d.chunk.css",
+    "static/js/main.a58c625a.chunk.js"
   ]
 }
