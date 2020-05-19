@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d57086e1d868b4ed9bb2286a4ffd130b",
+    "revision": "2dd8bd4b52b1ae23f9f62548cc1042cc",
     "url": "/illuminati/index.html"
   },
   {
-    "revision": "1a799e3e814872c0eafa",
-    "url": "/illuminati/static/css/main.85708311.chunk.css"
+    "revision": "e215c6611db2c239e1a4",
+    "url": "/illuminati/static/css/main.224a222e.chunk.css"
   },
   {
-    "revision": "e1e7887b45a201baa819",
-    "url": "/illuminati/static/js/2.9d0fbb51.chunk.js"
+    "revision": "ba532a912778a6b27f96",
+    "url": "/illuminati/static/js/2.3de327a7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/illuminati/static/js/2.9d0fbb51.chunk.js.LICENSE.txt"
+    "url": "/illuminati/static/js/2.3de327a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a799e3e814872c0eafa",
-    "url": "/illuminati/static/js/main.503153af.chunk.js"
+    "revision": "e215c6611db2c239e1a4",
+    "url": "/illuminati/static/js/main.0e7a58d2.chunk.js"
   },
   {
     "revision": "cf587db54182c56451d3",
@@ -106,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fd99ade8821de2d13164f4f431cf2fc5",
     "url": "/illuminati/static/media/logo2.fd99ade8.png"
+  },
+  {
+    "revision": "792afc6743a18696fb562cacabc63965",
+    "url": "/illuminati/static/media/mark-book.792afc67.png"
   },
   {
     "revision": "c8a750ced351aa06cba01a81137daa6f",
