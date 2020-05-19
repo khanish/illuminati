@@ -318,7 +318,7 @@ body {
       .head__menu--anchor-about {
         display: none;
         position: absolute;
-        top: 1.5rem;
+        top: 1.35rem;
         min-width: 15.625rem;
         z-index: 3000;
         transition: all .3s;
@@ -891,7 +891,7 @@ body {
       padding-top: 11rem; } }
   @media screen and (max-width: 650px) and (min-height: 700px) and (max-height: 1200px) {
     .aboutpurpose {
-      padding-top: 6rem; } }
+      padding-top: 12.5rem; } }
   @media screen and (max-width: 650px) and (min-height: 570px) and (max-height: 650px) {
     .aboutpurpose {
       padding-top: 10rem; } }
@@ -976,10 +976,11 @@ body {
     width: 100%;
     height: auto;
     padding-bottom: 0;
-    background-image: linear-gradient(rgba(23, 54, 121, 0.8), rgba(23, 54, 121, 0.8)), url("./assests/images/confirm.jpg");
+    background-image: linear-gradient(rgba(0, 47, 92, 0.9), rgba(0, 47, 92, 0.9)), url("./assests/images/confirm.jpg");
     background-size: cover;
     background-position: center, center;
-    background-attachment: scroll; }
+    background-attachment: scroll;
+    padding-bottom: 2rem; }
     @media screen and (max-width: 650px) {
       .about-symbols-top {
         padding-bottom: 4rem;
@@ -1030,3 +1031,95 @@ body {
         width: 10rem;
         height: 10rem;
         margin: 0 1rem 1rem 0; }
+  .about-symbols-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem; }
+    .about-symbols-mid__title {
+      font-size: 2.1rem;
+      font-family: serif;
+      color: #002f5c;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      font-weight: bolder;
+      padding: 0 1rem 1rem; }
+    .about-symbols-mid__img {
+      max-width: 31.25rem;
+      height: 25rem; }
+    .about-symbols-mid__del {
+      max-width: 40.625rem;
+      color: #818181;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 0 1rem 1rem; }
+      .about-symbols-mid__del--foot {
+        max-width: 34.375rem;
+        color: #941441;
+        font-size: 1rem;
+        font-weight: bolder;
+        padding: 0 1rem 1rem;
+        font-style: italic;
+        text-align: center; }
+
+.about-mark-head {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("./assests/images/confirm.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (max-width: 650px) {
+    .about-mark-head {
+      height: 100vh;
+      padding-top: 10rem; } }
+  @media screen and (orientation: landscape) {
+    .about-mark-head {
+      height: 150vh;
+      padding-top: 6rem; } }
+  .about-mark-head__img {
+    max-width: 12.5rem;
+    height: 18.75rem; }
+  .about-mark-head__del {
+    display: inline-block; }
+    .about-mark-head__del span {
+      display: block; }
+      .about-mark-head__del span:nth-of-type(1) {
+        font-size: 42px;
+        color: #9f1d4a;
+        line-height: 1;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 300;
+        font-style: italic; }
+      .about-mark-head__del span:nth-of-type(2) {
+        font-size: 17px;
+        color: #9f1d4a;
+        line-height: 1;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 400;
+        font-style: italic; }
+      .about-mark-head__del span:nth-of-type(3), .about-mark-head__del span:nth-of-type(4) {
+        font-size: 13px;
+        color: #595959;
+        line-height: 1.5;
+        text-align: center;
+        font-family: Lato;
+        font-weight: 400;
+        font-style: normal; }
+
+.about-mark > .aboutpurpose {
+  margin-top: -4rem; }
+  @media screen and (max-width: 650px) {
+    .about-mark > .aboutpurpose {
+      margin-top: -6.5rem; } }
+  @media screen and (orientation: landscape) {
+    .about-mark > .aboutpurpose {
+      margin-top: -7rem; } }

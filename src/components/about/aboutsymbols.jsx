@@ -36,6 +36,18 @@ function AboutSymbols() {
                     }
                 </section>
             </section>
+            <section className="about-symbols-mid">
+                <h2 className="about-symbols-mid__title">
+                    ABOUT ILLUMINATI SYMBOLS
+                </h2>
+                <img src={symbolExplainer} alt="explainer" className="about-symbols-mid__img"/>
+                <p className="about-symbols-mid__del">
+                    Symbols of the Illuminati appear in thousands of locations across this planet: on currency, architecture, artwork, and in media of all kinds. Since our formation, many of the Illuminati’s symbols have been shrouded in mystery, which has led to confusion over their meanings and purpose. In this section of our public website, our organization will bring clarity to our symbols and offer insights into their true interpretations.
+                </p>
+                <p className="about-symbols-mid__del--foot">
+                    Over the coming months, this section will continue to be updated with more of our symbology, including symbols that have not yet entered into the general public lexicon.
+                    </p>
+            </section>
         </section>
     )
 
