@@ -220,10 +220,10 @@ let Head = () => {
             )}
             <div className="head__menu--title">
                 <h1 className="header__primary">
-                    OFFICIAL WEBSITE
+                    THE ILLUMINATI GRAND LODGE
                 </h1>
                 <h2 className="header__secondary">
-                    OF THE ILLUMINATI
+                    OFFICIAL WEBSITE
                 </h2>
             </div>
         </div>

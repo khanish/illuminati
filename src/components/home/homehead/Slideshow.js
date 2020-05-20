@@ -122,7 +122,7 @@ class Slideshow extends Component {
                         welcome
                     </h1>
                     <h1 className='welcome__msg'>
-                        We appreciate your interest in our organization. Use our official website for details on our members, contact information, how to join the Illuminati, our beliefs, message archives, and more.
+                        We appreciate your interest in our organization. Use this official website for details on our members, contact information, how to join the Illuminati, our beliefs, message archives, and more.
                     </h1>
                 </div>
             </div>

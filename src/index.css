@@ -18,34 +18,26 @@ body {
 .header__primary {
   font-size: 18pt;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 500;
-  color: #fff2e7;
-  text-transform: uppercase;
-  line-height: 0.5;
-  text-align: center; }
-  @media screen and (max-width: 900px) {
-    .header__primary {
-      font-size: 16pt;
-      line-height: 1; } }
-
-.header__secondary {
-  font-size: 12pt;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   color: #fff2e7;
   text-transform: uppercase;
-  line-height: 1.5rem;
-  text-align: center;
-  letter-spacing: 6px; }
-  @media screen and (max-width: 900px) {
-    .header__secondary {
-      font-size: 10pt;
-      font-weight: 300;
-      line-height: .75; } }
+  line-height: 1;
+  text-align: center; }
+  @media screen and (max-width: 650px) {
+    .header__primary {
+      font-size: 15pt; } }
+
+.header__secondary {
+  font-size: 1.1rem;
+  font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+  font-weight: 200;
+  color: #fff2e7;
+  text-transform: uppercase;
+  text-align: center; }
 
 .welcome__typo {
   font-size: 25pt;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
   font-weight: bolder;
   color: #fff2e7;
   text-transform: uppercase;
@@ -106,10 +98,10 @@ body {
   @media screen and (max-width: 900px) {
     .eternal-aoth-head2 {
       font-size: 16pt;
-      line-height: .5; } }
+      line-height: 1; } }
   @media screen and (max-width: 650px) {
     .eternal-aoth-head2 {
-      letter-spacing: 2px; } }
+      letter-spacing: .5; } }
 
 .home-eternal-oath__cnt-detail {
   max-width: 37.5rem;
@@ -126,23 +118,22 @@ body {
       margin-bottom: 1rem; } }
 
 .testimony-head2 {
-  font-size: 14pt;
+  font-size: 1.2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   color: #fff2e7;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 6px;
+  letter-spacing: 2;
   color: #941441; }
 
 .testimony-head1 {
-  font-size: 18pt;
+  font-size: 1.5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   color: #fff2e7;
   text-transform: uppercase !important;
   text-align: center;
-  padding-top: 0.625rem;
   color: #941441;
   margin-bottom: 1rem; }
 
@@ -320,7 +311,7 @@ body {
       .head__menu--anchor-about {
         display: none;
         position: absolute;
-        top: 1.2rem;
+        top: 1.9rem;
         min-width: 15.625rem;
         z-index: 3000;
         transition: all .3s;
@@ -344,7 +335,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 7rem;
+        top: 7.5rem;
         width: 100%;
         height: 0;
         transition: all .3s;
@@ -404,7 +395,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 7rem;
+        top: 7.5rem;
         width: 100%;
         height: 0;
         transition: all .3s;
@@ -437,7 +428,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 7rem;
+        top: 7.5rem;
         width: 100%;
         height: 0;
         transition: all .3s;
@@ -469,8 +460,11 @@ body {
       position: relative;
       z-index: 10;
       width: 100%;
-      padding: .75rem 0 .1rem;
-      text-align: center;
+      padding: .5rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       background-color: #d8a466; }
       @media screen and (max-width: 900px) {
         .head__menu--title {
@@ -710,6 +704,11 @@ body {
     top: 40%; } }
 
 .home-brief-intro {
+  padding: .5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   position: relative;
   height: 30vh;
@@ -845,10 +844,16 @@ body {
     .homemain__testimonies--testifier-img {
       width: 21rem;
       height: 21rem;
-      border-radius: 50%; }
+      border-radius: 50%;
+      margin-bottom: 1rem; }
       @media screen and (max-width: 650px) {
         .homemain__testimonies--testifier-img {
-          margin-top: 0; } }
+          width: 18.75rem;
+          height: 18.75rem; } }
+      @media screen and (max-width: 650px) {
+        .homemain__testimonies--testifier-img {
+          width: 20.3125rem;
+          height: 20.3125rem; } }
     .homemain__testimonies--testifier-detail {
       display: block;
       position: absolute;
@@ -1157,10 +1162,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: -.5rem;
   background-color: #cac7c7; }
   @media screen and (max-width: 900px) {
     .aboutbillionaire {
-      padding-top: 8.5rem; } }
+      padding-top: 8.5rem;
+      margin-top: 0; } }
   @media screen and (max-width: 900px) and (orientation: landscape) {
     .aboutbillionaire {
       padding-top: 7rem; } }
@@ -1170,6 +1177,9 @@ body {
   @media screen and (max-width: 650px) and (orientation: landscape) {
     .aboutbillionaire {
       padding-top: 5.8rem; } }
+  @media screen and (min-height: 800px) and (max-height: 850px) {
+    .aboutbillionaire {
+      padding-top: 10rem; } }
   .aboutbillionaire > .aboutpurpose-title {
     max-width: 42.5rem;
     margin-top: 1rem;
@@ -1187,6 +1197,7 @@ body {
     margin-bottom: 2rem; }
 
 .about-billi-title {
+  margin-top: 1rem;
   position: relative;
   width: 100%;
   height: 5rem;
@@ -1203,6 +1214,9 @@ body {
   justify-content: center;
   align-items: center;
   line-height: .85; }
+  @media screen and (max-width: 650px) {
+    .about-billi-title {
+      font-size: 1.4rem; } }
 
 .biliapplform .notejoining {
   background: #e3e3e3d6;

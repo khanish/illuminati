@@ -7,7 +7,7 @@ function AboutBillionaires() {
         <React-Fractor>
             <section className="aboutbillionaire">
                 <section className="about-billi-title">
-                    THE BILLIONAIRE GIVING PLEDGE
+                    THE BILLIONAIRES GIVING PLEDGE
                 </section>
                 <h1 className="aboutpurpose-title">
                     "The Giving Pledge is a commitment by the world's wealthiest individuals and families to dedicate the majority of their wealth to philanthropy."
@@ -35,7 +35,7 @@ function AboutBillionaires() {
                     <ApplicationForm />
                     <div class="notejoining">
                         <h4>The Illuminati is an elite organization of world leaders, business authorities, innovators, artists, and other influential members of this planet. To apply for membership, complete the form on this page.</h4>
-                        <h5>All people, in all places, are eligible to apply for Illuminati membership. Initiates are not required to take vows of loyalty for eternity.</h5>
+                        <h5>All people, in all places, are eligible to apply for Illuminati membership. Initiates are required to take vows of loyalty for eternity.</h5>
                     </div>
                 </div>
             </section>
