@@ -387,6 +387,8 @@
 //application form section home
 
 .application-form {
+    margin-top: 1rem;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -394,8 +396,11 @@
     padding: 3rem 2rem 2rem;
     text-align: center;
     background-color: rgba($color-grey,.3);
+    @include responsive($mobile) {
+        padding: 2rem .5rem;
+    }
     &__cnt-logo {
-        width: 80/16+rem;
+        width: 85/16+rem;
         position: absolute;
         top: -2.5rem
     }

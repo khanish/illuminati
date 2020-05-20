@@ -22,13 +22,11 @@ body {
   color: #fff2e7;
   text-transform: uppercase;
   line-height: 0.5;
-  text-align: center;
-  padding-top: 0.625rem; }
+  text-align: center; }
   @media screen and (max-width: 900px) {
     .header__primary {
       font-size: 16pt;
-      line-height: 0;
-      padding-top: 0; } }
+      line-height: 1; } }
 
 .header__secondary {
   font-size: 12pt;
@@ -43,7 +41,7 @@ body {
     .header__secondary {
       font-size: 10pt;
       font-weight: 300;
-      line-height: 1; } }
+      line-height: .5; } }
 
 .welcome__typo {
   font-size: 25pt;
@@ -174,17 +172,21 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #941441;
-  width: 25rem;
+  width: 31.25rem;
   justify-content: center;
   align-items: center;
   position: relative;
   padding: 2rem .5rem;
   border-radius: 3px; }
+  @media screen and (max-width: 650px) {
+    .application-form__cnt {
+      width: 100%; } }
   .application-form__cnt-input {
     margin-bottom: 1rem;
-    height: 2rem;
+    height: 2.75rem;
     width: 85%;
     padding-left: 1rem;
+    font-size: .9rem;
     color: #c44370; }
     .application-form__cnt-input:first-of-type {
       margin-top: 1rem; }
@@ -318,7 +320,7 @@ body {
       .head__menu--anchor-about {
         display: none;
         position: absolute;
-        top: 1.35rem;
+        top: 1.2rem;
         min-width: 15.625rem;
         z-index: 3000;
         transition: all .3s;
@@ -330,7 +332,7 @@ body {
           text-decoration: none;
           text-transform: capitalize;
           padding: .5rem .3rem;
-          font-size: 0.6875rem;
+          font-size: 0.875rem;
           font-family: arial, sans-serif;
           font-weight: 400; }
           .head__menu--anchor-about-item:not(:last-of-type) {
@@ -342,7 +344,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 16vh;
+        top: 7rem;
         width: 100%;
         height: 0;
         transition: all .3s;
@@ -402,7 +404,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 16vh;
+        top: 7rem;
         width: 100%;
         height: 0;
         transition: all .3s;
@@ -435,7 +437,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 16vh;
+        top: 7rem;
         width: 100%;
         height: 0;
         transition: all .3s;
@@ -467,10 +469,17 @@ body {
       position: relative;
       z-index: 10;
       width: 100%;
-      padding: .25rem 0 .1rem;
+      padding: .75rem 0 .1rem;
       text-align: center;
-      background-color: #d8a466;
-      position: relative; }
+      background-color: #d8a466; }
+      @media screen and (max-width: 900px) {
+        .head__menu--title {
+          padding: .5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin-bottom: 6rem; } }
 
 .mobile {
   display: none;
@@ -854,6 +863,8 @@ body {
       font-font-weight: bold; }
 
 .application-form {
+  margin-top: 1rem;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -861,8 +872,11 @@ body {
   padding: 3rem 2rem 2rem;
   text-align: center;
   background-color: rgba(129, 129, 129, 0.3); }
+  @media screen and (max-width: 650px) {
+    .application-form {
+      padding: 2rem .5rem; } }
   .application-form__cnt-logo {
-    width: 5rem;
+    width: 5.3125rem;
     position: absolute;
     top: -2.5rem; }
   .application-form-title {
@@ -930,26 +944,32 @@ body {
         flex-direction: column; } }
   @media screen and (max-width: 650px) and (orientation: landscape) {
     .aboutpurpose-links {
-      flex-direction: row;
-      justify-content: space-around; } }
+      flex-direction: column;
+      justify-content: space-between; } }
     .aboutpurpose-links .margin-right {
       margin-right: 4rem;
-      margin-bottom: .5rem; }
-      @media screen and (max-width: 900px) {
-        .aboutpurpose-links .margin-right {
-          margin-right: 2rem; } }
-      @media screen and (max-width: 650px) {
-        .aboutpurpose-links .margin-right {
-          margin-right: 0; } }
-    .aboutpurpose-links .margin-left {
       margin-left: 4rem;
       margin-bottom: .5rem; }
       @media screen and (max-width: 900px) {
+        .aboutpurpose-links .margin-right {
+          margin-right: 2rem;
+          margin-left: 2rem; } }
+      @media screen and (max-width: 650px) {
+        .aboutpurpose-links .margin-right {
+          margin-right: 0;
+          margin-left: 0; } }
+    .aboutpurpose-links .margin-left {
+      margin-left: 4rem;
+      margin-right: 4rem;
+      margin-bottom: .5rem; }
+      @media screen and (max-width: 900px) {
         .aboutpurpose-links .margin-left {
+          margin-right: 2rem;
           margin-left: 2rem; } }
       @media screen and (max-width: 650px) {
         .aboutpurpose-links .margin-left {
-          margin-left: 0; } }
+          margin-left: 0;
+          margin-right: 0; } }
 
 .about-symbols {
   position: relative;
@@ -1123,3 +1143,88 @@ body {
   @media screen and (orientation: landscape) {
     .about-mark > .aboutpurpose {
       margin-top: -7rem; } }
+
+.aboutbillionaire {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #cac7c7; }
+  @media screen and (max-width: 900px) {
+    .aboutbillionaire {
+      padding-top: 8.5rem; } }
+  @media screen and (max-width: 900px) and (orientation: landscape) {
+    .aboutbillionaire {
+      padding-top: 7rem; } }
+
+@media screen and (max-width: 650px) and (orientation: landscape) {
+  .aboutbillionaire {
+    padding-top: 5.8rem; } }
+  .aboutbillionaire > .aboutpurpose-title {
+    max-width: 42.5rem;
+    margin-top: 1rem;
+    padding-right: .75rem;
+    padding-left: .75rem; }
+  .aboutbillionaire > .aboutpurpose-del {
+    max-width: 31.25rem;
+    text-align: justify;
+    padding-right: .75rem;
+    padding-left: .75rem; }
+  .aboutbillionaire > .about-symbols-mid__del--foot {
+    max-width: 28.125rem;
+    text-align: justify;
+    color: #818181;
+    margin-bottom: 2rem; }
+
+.about-billi-title {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  background-image: linear-gradient(rgba(216, 164, 102, 0.7), rgba(216, 164, 102, 0.7)), url("./assests/images/the-pyramid1.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 33px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 900;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.biliapplform .notejoining {
+  background: #e3e3e3d6;
+  max-width: 380px;
+  margin: .5rem auto;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 51px -9px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 51px -9px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 51px -9px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem !important; }
+  .biliapplform .notejoining h4 {
+    text-align: center !important;
+    font-size: .9rem !important;
+    font-family: average, serif !important;
+    max-width: 450px;
+    margin: auto;
+    margin-top: -5px;
+    color: #404040;
+    font-weight: 600;
+    text-transform: none; }
+  .biliapplform .notejoining h5 {
+    text-align: center !important;
+    font-size: 10pt !important;
+    font-family: average, serif !important;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 15px;
+    font-style: italic;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+    border-top: 1px solid #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+    padding-top: 4px;
+    padding-bottom: 4px; }

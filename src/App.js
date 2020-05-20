@@ -9,6 +9,7 @@ import AboutMarkBook from './components/about/aboutsymbolmarks';
 import AboutSecreteSociety from './components/about/aboutsecretesociety';
 import AboutWealth from './components/about/aboutwealth';
 import AboutAge from './components/about/aboutilluage';
+import AboutBillionaires from './components/about/aboutbillionaires';
 
 function App() {
   let path = '/illuminati';
@@ -24,6 +25,7 @@ function App() {
           <Route path={'/why-a-secrete-society'} component={AboutSecreteSociety} />
           <Route path={'/wealth-of-the-illuminati'} component={AboutWealth} />
           <Route path={'/the-age-of-illuminati'} component={AboutAge} />
+          <Route path={'/billionaires-giving-pledge'} component={AboutBillionaires} />
           
         </Switch>
         <Footer />

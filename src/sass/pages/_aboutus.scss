@@ -66,28 +66,34 @@
         @include responsive($mobile) {
             flex-direction: column;
             @media screen and (orientation: landscape) {
-                flex-direction: row;
-                 justify-content: space-around;
+                flex-direction: column;
+                 justify-content: space-between;
             }
         }
         & .margin-right {
             margin-right: 4rem;
+            margin-left: 4rem;
             margin-bottom: .5rem;
             @include responsive($tablet) {
                 margin-right: 2rem;
+                margin-left: 2rem;
             }
             @include responsive($mobile) {
                 margin-right: 0;
+                margin-left: 0;
             }
         }
         & .margin-left {
             margin-left: 4rem;
+            margin-right: 4rem;
             margin-bottom: .5rem;
-            @include responsive($tablet) {
+            @include responsive($tablet) {  
+                margin-right: 2rem;
                 margin-left: 2rem;
             }
             @include responsive($mobile) {
                 margin-left: 0;
+                margin-right: 0;
             }
         }
     }
@@ -300,4 +306,102 @@
     @media screen and (orientation: landscape) {
        margin-top: -7rem;
     }
+}
+
+//billionares giving pledge
+.aboutbillionaire {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(202, 199, 199);
+    @include responsive($tablet) {
+        padding-top: 8.5rem;
+        @media screen and (orientation: landscape) {
+            padding-top: 7rem;
+        }
+    }
+    @include responsive($mobile) {
+        @media screen and (orientation: landscape) {
+            padding-top: 5.8rem;
+        }
+    }
+    &>.aboutpurpose-title {
+        max-width: 680/16+rem;
+        margin-top: 1rem;
+        padding-right: .75rem;
+        padding-left: .75rem;
+    }
+    &>.aboutpurpose-del {
+        max-width: 500/16+rem;
+        text-align: justify;
+        padding-right: .75rem;
+        padding-left: .75rem;
+    }
+    &>.about-symbols-mid__del--foot {
+        max-width: 450/16+rem;
+        text-align: justify;
+        color: $color-grey;
+        margin-bottom: 2rem;
+    }
+}
+.about-billi-title {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    background-image: linear-gradient(rgba($color-secondary, .7), rgba($color-secondary, .7)), url('./assests/images/the-pyramid1.jpg');
+    background-position: center;
+    background-size: cover;
+    font-size: 33px;
+    color: #ffffff;
+    text-align: center;
+    font-family:Lato;
+    font-weight:900;
+    font-style:normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biliapplform {
+    .notejoining {
+        background: #e3e3e3d6;
+        max-width: 380px;
+        margin: .5rem auto;
+        padding: 20px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
+        -moz-box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
+        box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
+        margin-bottom: 2rem !important;
+        & h4 {
+            text-align: center !important;
+            font-size: .9rem !important;
+            font-family: average, serif !important;
+            max-width: 450px;
+            margin: auto;
+            margin-top: -5px;
+            color: rgb(64, 64, 64);
+            font-weight: 600;
+            text-transform: none;
+        }
+        & h5 {
+            text-align: center !important;
+            font-size: 10pt !important;
+            font-family: average, serif !important;
+            max-width: 250px;
+            margin: auto;
+            margin-top: 15px;
+            font-style: italic;
+            color: #5a5a5a;
+            margin-bottom: 10px;
+            border-top: 1px solid #5a5a5a;
+            border-bottom: 1px solid #5a5a5a;
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+    }
+
 }

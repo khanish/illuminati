@@ -46,7 +46,7 @@ function AboutSymbols() {
                 </p>
                 <p className="about-symbols-mid__del--foot">
                     Over the coming months, this section will continue to be updated with more of our symbology, including symbols that have not yet entered into the general public lexicon.
-                    </p>
+                </p>
             </section>
         </section>
     )
