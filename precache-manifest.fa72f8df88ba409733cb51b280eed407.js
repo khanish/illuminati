@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42c1aba035eb7518db5bdd86d4e7b1e8",
+    "revision": "a1734e2752d263098a2865a9502efd00",
     "url": "/illuminati/index.html"
   },
   {
-    "revision": "9748961098b233bc1c40",
-    "url": "/illuminati/static/css/main.03808b9a.chunk.css"
+    "revision": "0d049296eea7eb18ddf9",
+    "url": "/illuminati/static/css/main.a27625ac.chunk.css"
   },
   {
     "revision": "ba532a912778a6b27f96",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/illuminati/static/js/2.3de327a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9748961098b233bc1c40",
+    "revision": "0d049296eea7eb18ddf9",
     "url": "/illuminati/static/js/main.62709070.chunk.js"
   },
   {
