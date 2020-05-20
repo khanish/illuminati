@@ -6,9 +6,8 @@
     text-transform: uppercase;
     line-height: 0.5;
     text-align: center;
-    //padding-top: 10/16+rem;
      @include responsive($tablet) {
-         font-size: 16pt;
+        font-size: 16pt;
         line-height: 1;
         
      }
@@ -24,13 +23,13 @@
         font-weight: 400 ;
         color: #fff2e7;
         text-transform: uppercase;
-        line-height: 30px;
+        line-height: 1.5rem;
         text-align: center;
         letter-spacing: 6px;
     @include responsive($tablet) {
         font-size: 10pt;
         font-weight: 300;
-        line-height: .5;
+        line-height: .75;
     }
 }
 

@@ -34,14 +34,14 @@ body {
   font-weight: 400;
   color: #fff2e7;
   text-transform: uppercase;
-  line-height: 30px;
+  line-height: 1.5rem;
   text-align: center;
   letter-spacing: 6px; }
   @media screen and (max-width: 900px) {
     .header__secondary {
       font-size: 10pt;
       font-weight: 300;
-      line-height: .5; } }
+      line-height: .75; } }
 
 .welcome__typo {
   font-size: 25pt;
@@ -479,7 +479,7 @@ body {
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          margin-bottom: 6rem; } }
+          margin-bottom: 7rem; } }
 
 .mobile {
   display: none;
@@ -518,7 +518,7 @@ body {
       display: none;
       flex-direction: column;
       position: fixed;
-      top: 3.5rem;
+      top: 3.85rem;
       width: 100%;
       overflow-y: scroll; }
       @media screen and (max-width: 650px) {
@@ -526,7 +526,7 @@ body {
           top: 6.2rem; } }
       @media screen and (orientation: landscape) {
         .mobile__menu--list {
-          top: 3.5rem;
+          top: 4rem;
           height: 100vh; } }
       .mobile__menu--list-item {
         color: #d8a466;
@@ -712,7 +712,7 @@ body {
 .home-brief-intro {
   width: 100%;
   position: relative;
-  height: 40vh;
+  height: 30vh;
   background-image: url("./assests/images/the-pyramid.jpg");
   background-position: center;
   background-size: cover; }
@@ -721,7 +721,7 @@ body {
       height: 55vh; } }
   @media screen and (orientation: landscape) {
     .home-brief-intro {
-      height: 60vh; } }
+      height: 80vh; } }
   .home-brief-intro__overlay {
     position: absolute;
     top: 0;
@@ -734,11 +734,19 @@ body {
       width: 100%;
       background-color: #941441;
       position: relative;
-      top: 6vh; }
+      top: 3rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      @media screen and (max-width: 650px) {
+        .home-brief-intro__overlay .home-brief-intro__title {
+          top: 2rem; } }
     .home-brief-intro__overlay .home-brief-intro__cnt {
       display: inline-block;
       max-width: 43.75rem;
-      top: 60%;
+      top: 8rem;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -750,7 +758,7 @@ body {
         .home-brief-intro__overlay .home-brief-intro__cnt {
           left: unset;
           position: relative;
-          top: 8vh;
+          top: 4rem;
           transform: unset; } }
 
 .home-believes {
@@ -863,7 +871,6 @@ body {
       font-font-weight: bold; }
 
 .application-form {
-  margin-top: 1rem;
   width: 100%;
   position: relative;
   display: flex;
@@ -956,16 +963,16 @@ body {
           margin-left: 2rem; } }
       @media screen and (max-width: 650px) {
         .aboutpurpose-links .margin-right {
-          margin-right: 0;
-          margin-left: 0; } }
+          margin-right: 2rem;
+          margin-left: 2rem; } }
     .aboutpurpose-links .margin-left {
       margin-left: 4rem;
       margin-right: 4rem;
       margin-bottom: .5rem; }
       @media screen and (max-width: 900px) {
         .aboutpurpose-links .margin-left {
-          margin-right: 2rem;
-          margin-left: 2rem; } }
+          margin-right: 0rem;
+          margin-left: 0rem; } }
       @media screen and (max-width: 650px) {
         .aboutpurpose-links .margin-left {
           margin-left: 0;
@@ -1157,10 +1164,12 @@ body {
   @media screen and (max-width: 900px) and (orientation: landscape) {
     .aboutbillionaire {
       padding-top: 7rem; } }
-
-@media screen and (max-width: 650px) and (orientation: landscape) {
-  .aboutbillionaire {
-    padding-top: 5.8rem; } }
+  @media screen and (max-width: 650px) {
+    .aboutbillionaire {
+      padding-top: 8.5rem; } }
+  @media screen and (max-width: 650px) and (orientation: landscape) {
+    .aboutbillionaire {
+      padding-top: 5.8rem; } }
   .aboutbillionaire > .aboutpurpose-title {
     max-width: 42.5rem;
     margin-top: 1rem;
@@ -1180,11 +1189,11 @@ body {
 .about-billi-title {
   position: relative;
   width: 100%;
-  height: 15vh;
+  height: 5rem;
   background-image: linear-gradient(rgba(216, 164, 102, 0.7), rgba(216, 164, 102, 0.7)), url("./assests/images/the-pyramid1.jpg");
   background-position: center;
   background-size: cover;
-  font-size: 33px;
+  font-size: 1.9rem;
   color: #ffffff;
   text-align: center;
   font-family: Lato;
@@ -1192,7 +1201,8 @@ body {
   font-style: normal;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  line-height: .85; }
 
 .biliapplform .notejoining {
   background: #e3e3e3d6;

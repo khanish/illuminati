@@ -181,7 +181,7 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
-                margin-bottom: 6rem;
+                margin-bottom: 7rem;
             }
         }
     }
@@ -233,14 +233,14 @@
             display: none;
             flex-direction: column;
             position: fixed;
-            top: 3.5rem;
+            top: 3.85rem;
             width: 100%;
             overflow-y: scroll;
             @include responsive($mobile) {
                 top: 6.2rem;
             }
             @media screen and (orientation: landscape) {
-                top: 3.5rem;
+                top: 4rem;
                 height: 100vh;
             }
             &-item {
