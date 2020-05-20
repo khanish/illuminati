@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/illuminati/static/css/main.224a222e.chunk.css",
-    "main.js": "/illuminati/static/js/main.75ac82c9.chunk.js",
-    "main.js.map": "/illuminati/static/js/main.75ac82c9.chunk.js.map",
+    "main.css": "/illuminati/static/css/main.42d01f3f.chunk.css",
+    "main.js": "/illuminati/static/js/main.de16f468.chunk.js",
+    "main.js.map": "/illuminati/static/js/main.de16f468.chunk.js.map",
     "runtime-main.js": "/illuminati/static/js/runtime-main.79d4ff21.js",
     "runtime-main.js.map": "/illuminati/static/js/runtime-main.79d4ff21.js.map",
     "static/js/2.3de327a7.chunk.js": "/illuminati/static/js/2.3de327a7.chunk.js",
     "static/js/2.3de327a7.chunk.js.map": "/illuminati/static/js/2.3de327a7.chunk.js.map",
     "index.html": "/illuminati/index.html",
-    "precache-manifest.f47dbe2e93b3f7dd15c7c98e92506729.js": "/illuminati/precache-manifest.f47dbe2e93b3f7dd15c7c98e92506729.js",
+    "precache-manifest.4a61882a3feaf4504008664f2398dc4c.js": "/illuminati/precache-manifest.4a61882a3feaf4504008664f2398dc4c.js",
     "service-worker.js": "/illuminati/service-worker.js",
-    "static/css/main.224a222e.chunk.css.map": "/illuminati/static/css/main.224a222e.chunk.css.map",
+    "static/css/main.42d01f3f.chunk.css.map": "/illuminati/static/css/main.42d01f3f.chunk.css.map",
     "static/js/2.3de327a7.chunk.js.LICENSE.txt": "/illuminati/static/js/2.3de327a7.chunk.js.LICENSE.txt",
     "static/media/CollinH-illuminatiam.jpg": "/illuminati/static/media/CollinH-illuminatiam.9bbcb9f6.jpg",
     "static/media/HannaD-illuminatiam.jpg": "/illuminati/static/media/HannaD-illuminatiam.b0b14bd0.jpg",
     "static/media/TonyR-illuminatiam.jpg": "/illuminati/static/media/TonyR-illuminatiam.ded41c32.jpg",
     "static/media/VG-illuminatiam.jpg": "/illuminati/static/media/VG-illuminatiam.4f01ee13.jpg",
     "static/media/amethyst-r-illuminatiam-featured.jpg": "/illuminati/static/media/amethyst-r-illuminatiam-featured.dcb193dc.jpg",
-    "static/media/index.css": "/illuminati/static/media/the-pyramid.9a10cd6d.jpg",
+    "static/media/index.css": "/illuminati/static/media/the-pyramid1.d640650c.jpg",
     "static/media/dodis-authentic.jpg": "/illuminati/static/media/dodis-authentic.a9b987ae.jpg",
     "static/media/eternal-oath.jpg": "/illuminati/static/media/eternal-oath.875287c8.jpg",
     "static/media/globalist-agenda.jpg": "/illuminati/static/media/globalist-agenda.dca7aec6.jpg",
@@ -52,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.79d4ff21.js",
     "static/js/2.3de327a7.chunk.js",
-    "static/css/main.224a222e.chunk.css",
-    "static/js/main.75ac82c9.chunk.js"
+    "static/css/main.42d01f3f.chunk.css",
+    "static/js/main.de16f468.chunk.js"
   ]
 }
