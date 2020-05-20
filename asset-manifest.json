@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/illuminati/static/css/main.6cc5ea4c.chunk.css",
+    "main.css": "/illuminati/static/css/main.42217910.chunk.css",
     "main.js": "/illuminati/static/js/main.de16f468.chunk.js",
     "main.js.map": "/illuminati/static/js/main.de16f468.chunk.js.map",
     "runtime-main.js": "/illuminati/static/js/runtime-main.79d4ff21.js",
@@ -8,9 +8,9 @@
     "static/js/2.3de327a7.chunk.js": "/illuminati/static/js/2.3de327a7.chunk.js",
     "static/js/2.3de327a7.chunk.js.map": "/illuminati/static/js/2.3de327a7.chunk.js.map",
     "index.html": "/illuminati/index.html",
-    "precache-manifest.7366952357867fdabe30bf59a90e8d70.js": "/illuminati/precache-manifest.7366952357867fdabe30bf59a90e8d70.js",
+    "precache-manifest.3b961155f8a45b4bc8844f6de99c9e3e.js": "/illuminati/precache-manifest.3b961155f8a45b4bc8844f6de99c9e3e.js",
     "service-worker.js": "/illuminati/service-worker.js",
-    "static/css/main.6cc5ea4c.chunk.css.map": "/illuminati/static/css/main.6cc5ea4c.chunk.css.map",
+    "static/css/main.42217910.chunk.css.map": "/illuminati/static/css/main.42217910.chunk.css.map",
     "static/js/2.3de327a7.chunk.js.LICENSE.txt": "/illuminati/static/js/2.3de327a7.chunk.js.LICENSE.txt",
     "static/media/CollinH-illuminatiam.jpg": "/illuminati/static/media/CollinH-illuminatiam.9bbcb9f6.jpg",
     "static/media/HannaD-illuminatiam.jpg": "/illuminati/static/media/HannaD-illuminatiam.b0b14bd0.jpg",
@@ -52,7 +52,7 @@
   "entrypoints": [
     "static/js/runtime-main.79d4ff21.js",
     "static/js/2.3de327a7.chunk.js",
-    "static/css/main.6cc5ea4c.chunk.css",
+    "static/css/main.42217910.chunk.css",
     "static/js/main.de16f468.chunk.js"
   ]
 }
