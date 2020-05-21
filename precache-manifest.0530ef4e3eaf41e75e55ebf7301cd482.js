@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "549e3f7909c8f5e38dcd4080d6122a37",
+    "revision": "71a6df1e793d0667a7eb514f471b524e",
     "url": "/illuminati/index.html"
   },
   {
-    "revision": "e1eb1ad82039c31d9b6e",
-    "url": "/illuminati/static/css/main.f420a6cd.chunk.css"
+    "revision": "a78075cb122cf5102c68",
+    "url": "/illuminati/static/css/main.cf0695c0.chunk.css"
   },
   {
-    "revision": "ba532a912778a6b27f96",
-    "url": "/illuminati/static/js/2.3de327a7.chunk.js"
+    "revision": "2dfa42b049a55f58a1f6",
+    "url": "/illuminati/static/js/2.6027a30e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/illuminati/static/js/2.3de327a7.chunk.js.LICENSE.txt"
+    "url": "/illuminati/static/js/2.6027a30e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1eb1ad82039c31d9b6e",
-    "url": "/illuminati/static/js/main.8e39ac48.chunk.js"
+    "revision": "a78075cb122cf5102c68",
+    "url": "/illuminati/static/js/main.8488f89a.chunk.js"
   },
   {
     "revision": "cf587db54182c56451d3",
@@ -170,6 +170,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b38c0eb138ea535914e655ed5e03446c",
     "url": "/illuminati/static/media/symbols-snake-ouroboros.b38c0eb1.png"
+  },
+  {
+    "revision": "c5bcd7d695eb646f97c1363bc32ba187",
+    "url": "/illuminati/static/media/the-eye-bckg-big.c5bcd7d6.jpg"
   },
   {
     "revision": "a0cda258e1304ce891640e7deaf28458",
