@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71a6df1e793d0667a7eb514f471b524e",
+    "revision": "5fd10a777a953224faadd933f27b910b",
     "url": "/illuminati/index.html"
   },
   {
-    "revision": "a78075cb122cf5102c68",
-    "url": "/illuminati/static/css/main.cf0695c0.chunk.css"
+    "revision": "c5fd350b83c9417a77b5",
+    "url": "/illuminati/static/css/main.14d18313.chunk.css"
   },
   {
-    "revision": "2dfa42b049a55f58a1f6",
-    "url": "/illuminati/static/js/2.6027a30e.chunk.js"
+    "revision": "bb623ad44b27bed3f2fd",
+    "url": "/illuminati/static/js/2.afece2bc.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/illuminati/static/js/2.6027a30e.chunk.js.LICENSE.txt"
+    "url": "/illuminati/static/js/2.afece2bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a78075cb122cf5102c68",
-    "url": "/illuminati/static/js/main.8488f89a.chunk.js"
+    "revision": "c5fd350b83c9417a77b5",
+    "url": "/illuminati/static/js/main.887732af.chunk.js"
   },
   {
     "revision": "cf587db54182c56451d3",
@@ -172,8 +172,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/illuminati/static/media/symbols-snake-ouroboros.b38c0eb1.png"
   },
   {
+    "revision": "a00ce08cc176148a0e442b3b07203418",
+    "url": "/illuminati/static/media/the-circle-bckg-big.a00ce08c.jpg"
+  },
+  {
     "revision": "c5bcd7d695eb646f97c1363bc32ba187",
     "url": "/illuminati/static/media/the-eye-bckg-big.c5bcd7d6.jpg"
+  },
+  {
+    "revision": "4838b74cada6822666ed98aed09cbaa4",
+    "url": "/illuminati/static/media/the-light-bckg-big.4838b74c.jpg"
   },
   {
     "revision": "a0cda258e1304ce891640e7deaf28458",
