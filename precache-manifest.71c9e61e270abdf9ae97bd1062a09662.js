@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e317f5ee2db7b285c265d4b71ec04336",
+    "revision": "1feefc223a1ca4c6a227a0e2faf907cf",
     "url": "/illuminati/index.html"
   },
   {
-    "revision": "8deefddda4ea40920183",
-    "url": "/illuminati/static/css/main.061e0a6c.chunk.css"
+    "revision": "ca28cf8720b61f7ae379",
+    "url": "/illuminati/static/css/main.509b22cd.chunk.css"
   },
   {
-    "revision": "858a38a8aba31228c68b",
-    "url": "/illuminati/static/js/2.c0ac95f9.chunk.js"
+    "revision": "248b2a664772f5b297cd",
+    "url": "/illuminati/static/js/2.53b884df.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/illuminati/static/js/2.c0ac95f9.chunk.js.LICENSE.txt"
+    "url": "/illuminati/static/js/2.53b884df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8deefddda4ea40920183",
-    "url": "/illuminati/static/js/main.ddeafbb2.chunk.js"
+    "revision": "ca28cf8720b61f7ae379",
+    "url": "/illuminati/static/js/main.d55551c2.chunk.js"
   },
   {
     "revision": "cf587db54182c56451d3",
@@ -54,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "875287c88e85f3d02d68ae51bd940749",
     "url": "/illuminati/static/media/eternal-oath.875287c8.jpg"
-  },
-  {
-    "revision": "dca7aec66570c08d9c495631495ce0f8",
-    "url": "/illuminati/static/media/globalist-agenda.dca7aec6.jpg"
   },
   {
     "revision": "52e5369cda67f00a8f293ef6f1c6e89d",
@@ -110,10 +106,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "792afc6743a18696fb562cacabc63965",
     "url": "/illuminati/static/media/mark-book.792afc67.png"
-  },
-  {
-    "revision": "c8a750ced351aa06cba01a81137daa6f",
-    "url": "/illuminati/static/media/pendulum.c8a750ce.jpg"
   },
   {
     "revision": "b9cfe164d5ffe8ed22bd62a972a3c55c",
