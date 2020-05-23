@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/illuminati/static/css/main.3c53e851.chunk.css",
-    "main.js": "/illuminati/static/js/main.d280d58f.chunk.js",
-    "main.js.map": "/illuminati/static/js/main.d280d58f.chunk.js.map",
+    "main.css": "/illuminati/static/css/main.88beceb4.chunk.css",
+    "main.js": "/illuminati/static/js/main.fc16e4da.chunk.js",
+    "main.js.map": "/illuminati/static/js/main.fc16e4da.chunk.js.map",
     "runtime-main.js": "/illuminati/static/js/runtime-main.79d4ff21.js",
     "runtime-main.js.map": "/illuminati/static/js/runtime-main.79d4ff21.js.map",
     "static/js/2.53b884df.chunk.js": "/illuminati/static/js/2.53b884df.chunk.js",
     "static/js/2.53b884df.chunk.js.map": "/illuminati/static/js/2.53b884df.chunk.js.map",
     "index.html": "/illuminati/index.html",
-    "precache-manifest.8f52d5c985d9fcc9b2d7d495018ab7e8.js": "/illuminati/precache-manifest.8f52d5c985d9fcc9b2d7d495018ab7e8.js",
+    "precache-manifest.f29af9b0db3961733c91b2f7cde4fc5f.js": "/illuminati/precache-manifest.f29af9b0db3961733c91b2f7cde4fc5f.js",
     "service-worker.js": "/illuminati/service-worker.js",
-    "static/css/main.3c53e851.chunk.css.map": "/illuminati/static/css/main.3c53e851.chunk.css.map",
+    "static/css/main.88beceb4.chunk.css.map": "/illuminati/static/css/main.88beceb4.chunk.css.map",
     "static/js/2.53b884df.chunk.js.LICENSE.txt": "/illuminati/static/js/2.53b884df.chunk.js.LICENSE.txt",
     "static/media/CollinH-illuminatiam.jpg": "/illuminati/static/media/CollinH-illuminatiam.9bbcb9f6.jpg",
     "static/media/HannaD-illuminatiam.jpg": "/illuminati/static/media/HannaD-illuminatiam.b0b14bd0.jpg",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.79d4ff21.js",
     "static/js/2.53b884df.chunk.js",
-    "static/css/main.3c53e851.chunk.css",
-    "static/js/main.d280d58f.chunk.js"
+    "static/css/main.88beceb4.chunk.css",
+    "static/js/main.fc16e4da.chunk.js"
   ]
 }
