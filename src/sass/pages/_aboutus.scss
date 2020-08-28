@@ -319,16 +319,16 @@
 
     background-color: rgb(202, 199, 199);
     @include responsive($tablet) {
-        padding-top: 8.5rem;
+        padding-top: 8.7rem;
         margin-top: 0;
         @media screen and (orientation: landscape) {
             padding-top: 7rem;
         }
     }
     @include responsive($mobile) {
-         padding-top: 8.5rem;
+         padding-top: 9rem;
         @media screen and (orientation: landscape) {
-            padding-top: 5.8rem;
+            padding-top: 5rem;
         }
     } 
     @media screen and (min-height: 800px)  and (max-height: 850px) {
@@ -377,42 +377,45 @@
 }
 
 .biliapplform {
-    .notejoining {
-        background: #e3e3e3d6;
-        max-width: 380px;
-        margin: .5rem auto;
-        padding: 20px;
-        border-radius: 5px;
-        -webkit-box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
-        -moz-box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
-        box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
-        margin-bottom: 2rem !important;
-        & h4 {
-            text-align: center !important;
-            font-size: .9rem !important;
-            font-family: average, serif !important;
-            max-width: 450px;
-            margin: auto;
-            margin-top: -5px;
-            color: rgb(64, 64, 64);
-            font-weight: 600;
-            text-transform: none;
-        }
-        & h5 {
-            text-align: center !important;
-            font-size: 10pt !important;
-            font-family: average, serif !important;
-            max-width: 250px;
-            margin: auto;
-            margin-top: 15px;
-            font-style: italic;
-            color: #5a5a5a;
-            margin-bottom: 10px;
-            border-top: 1px solid #5a5a5a;
-            border-bottom: 1px solid #5a5a5a;
-            padding-top: 4px;
-            padding-bottom: 4px;
-        }
+    padding: 3rem 1rem 2rem;
+}
+
+.notejoining {
+    background: #e3e3e3d6;
+    max-width: 380px;
+    margin: 1rem auto;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
+    box-shadow: 0 0 51px -9px rgba(0, 0, 0, .25);
+    margin-bottom: 2rem !important;
+
+    & h1 {
+        text-align: center !important;
+        font-size: .9rem !important;
+        font-family: average, serif !important;
+        max-width: 450px;
+        margin: auto;
+        margin-top: -5px;
+        color: rgb(64, 64, 64);
+        font-weight: 600;
+        text-transform: none;
     }
 
+    & h2 {
+        text-align: center !important;
+        font-size: 10pt !important;
+        font-family: average, serif !important;
+        max-width: 250px;
+        margin: auto;
+        margin-top: 15px;
+        font-style: italic;
+        color: #5a5a5a;
+        margin-bottom: 10px;
+        border-top: 1px solid #5a5a5a;
+        border-bottom: 1px solid #5a5a5a;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
 }

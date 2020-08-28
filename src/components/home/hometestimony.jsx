@@ -99,8 +99,10 @@ class Testimoney extends Component {
         return (
             <section className="homemain__testimonies">
                 <div className="homemain__testimonies--overlay">
-                    <h2 className='testimony-head2'>People</h2>
-                    <h2 className='testimony-head1'>ILLUMINATI</h2>
+                    <h3>
+                        <span className='testimony-head2'>People</span>
+                        <span className='testimony-head1'>ILLUMINATI</span>
+                    </h3>
                     <p className="homemain__testimonies--des">
                         Millions of people from all walks of life have committed themselves to the Illuminati’s global work for the betterment of the human species. By forgoing all divisions of religious, geographical, or political beliefs, followers of Illuminatiam strive to form a planet where all people, in all places, can live in Abundance.
                     </p>

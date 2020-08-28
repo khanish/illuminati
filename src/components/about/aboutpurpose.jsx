@@ -1,9 +1,16 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function AboutPurpose() {
     return(
         <React-Fractor>
+            <Helmet>
+                <title>
+                    purpose of the illuminati
+                </title>
+                <meta name='description' content="Like all organisms, the human species naturally strives against extinction. Though your countries have borders and your languages have barriers, all people in all places are members of the same biological family. All humans are pieces of a collective that keeps humanity in existence." />
+            </Helmet>
             <section className="aboutpurpose">
                 <h1 className="aboutpurpose-title">
                     The Illuminati’s purpose is to secure the ongoing survival of the human species.

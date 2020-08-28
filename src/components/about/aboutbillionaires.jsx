@@ -1,10 +1,19 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import ApplicationForm from '../home/applicationform';
+import JoinUs from '../Joinus';
+import { Helmet } from 'react-helmet';
 
 function AboutBillionaires() {
     return (
         <React-Fractor>
+            <Helmet>
+                <title>
+                    Billionaires pledgers
+                </title>
+                <meta name='description' content="The illumiti is a elite organization which includes world most influncial and powerful people in all catergories of life that makes the human race unique. Here is a list of billionaires and politcciens giving pledges to the illuminati."/>
+                <meta name='keyword' content='illumiti members, illuminati plegers, how to join the illuminati'/>
+            </Helmet>
             <section className="aboutbillionaire">
                 <section className="about-billi-title">
                     THE BILLIONAIRES GIVING PLEDGE
@@ -27,11 +36,8 @@ function AboutBillionaires() {
                     <a href='https://givingpledge.org/' className='learn-more margin-left' target="_blank">
                         List of Current Pledgers
                     </a>
-                    <a href='https://givingpledge.org/' className='learn-more margin-right' target="_blank">
-                        Take a Pledge
-                    </a>
                 </div>
-                <div className="biliapplform">
+                <div className="joinus">
                     <ApplicationForm />
                     <div class="notejoining">
                         <h4>The Illuminati is an elite organization of world leaders, business authorities, innovators, artists, and other influential members of this planet. To apply for membership, complete the form on this page.</h4>

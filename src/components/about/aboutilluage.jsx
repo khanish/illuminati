@@ -1,9 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function AboutAge() {
     return (
         <React-Fractor>
+            <Helmet>
+                <title>
+                    About Illuminati
+                </title>
+                <meta name='description' content="The illumiti is a elite organization which includes world most influncial and powerful people in all catergories of life that makes the human race unique. We bring hope to the hopeless and change the life of people who are ready to take that bold step to change their destinies for greatness. When you follow the light then you will live behind the darkness your ancestors and living in and light will shine on your path for richess and greatness" />
+            </Helmet>
             <section className="aboutpurpose">
                 <h1 className="aboutpurpose-title">
                     Your life's journey has led you to this moment.

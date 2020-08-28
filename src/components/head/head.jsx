@@ -1,8 +1,6 @@
 import React from 'react';
 import logo from '../../assests/images/logo.png'
 import logo2 from '../../assests/images/logo2.png';
-import globalImg from '../../assests/images/globalist-agenda.jpg'
-import pendulum from '../../assests/images/pendulum.jpg';
 import talisman from '../../assests/images/the-talisman.jpg';
 import ertenalOath from '../../assests/images/eternal-oath.jpg';
 import dodis from '../../assests/images/dodis-authentic.jpg';
@@ -14,7 +12,7 @@ let Head = () => {
         close = document.getElementById('close'),
         about = document.getElementById('about'),
         believe = document.getElementById('believe'),
-        achieve = document.getElementById('achieve'),
+        logo = document.getElementById('logo'),
         authentic = document.getElementById('authentic'),
         join = document.getElementById('join'),
         contact = document.getElementById('contact'),
@@ -23,17 +21,15 @@ let Head = () => {
         aboutItemCtn = document.getElementById('aboutItems'),
         believeItems = document.querySelectorAll('.mobile__menu--list-item-believes-item'),
         believeItemCtn = document.getElementById('believeItems'),
-        achieveItems = document.querySelectorAll('.mobile__menu--list-item-achieves-item'),
-        achieveItemCtn = document.getElementById('achieveItems'),
         authenticItems = document.querySelectorAll('.mobile__menu--list-item-authentic-item'),
         authenticItemCtn = document.getElementById('authenticItems'),
         menu = document.getElementById('menu');
         about.addEventListener('click', showAboutSub);
         believe.addEventListener('click', showBelieveSub);
-        achieve.addEventListener('click', showAchieveSub);
         authentic.addEventListener('click', showAuthenticSub);
         open.addEventListener('click', openMenu);
         close.addEventListener('click', closeMenu);
+        logo.addEventListener('click', closeMenu);
         aboutItems.forEach(item => {
             item.addEventListener('click', closeMenu);
         })
@@ -43,11 +39,7 @@ let Head = () => {
         authenticItems.forEach(item => {
             item.addEventListener('click', closeMenu);
         })
-        achieveItems.forEach(item => {
-            item.addEventListener('click', closeMenu);
-        })
         join.addEventListener('click', closeMenu);
-        contact.addEventListener('click', closeMenu);
         home.addEventListener('click', closeMenu);
 
         function showAboutSub() {
@@ -55,14 +47,12 @@ let Head = () => {
             aboutItemCtn.style.height = 'auto';
             aboutItemCtn.style.padding = '.5rem 3% 0';
             believeItemCtn.style.display = 'none';
-            achieveItemCtn.style.display = 'none';
             authenticItemCtn.style.display = 'none';
             menu.style.height = 'auto';
         }
         function showAuthenticSub() {
             aboutItemCtn.style.display = 'none';
             believeItemCtn.style.display = 'none';
-            achieveItemCtn.style.display = 'none';
             authenticItemCtn.style.display = 'block';
             authenticItemCtn.style.height = 'auto';
             authenticItemCtn.style.padding = '.5rem 3% 0';
@@ -70,15 +60,11 @@ let Head = () => {
         function showAchieveSub() {
             aboutItemCtn.style.display = 'none';
             believeItemCtn.style.display = 'none';
-            achieveItemCtn.style.display = 'block';
             authenticItemCtn.style.display = 'none';
-            achieveItemCtn.style.height = 'auto';
-            achieveItemCtn.style.padding = '.5rem 3% 0';
         }
         function showBelieveSub() {
             aboutItemCtn.style.display = 'none';
             believeItemCtn.style.display = 'block';
-            achieveItemCtn.style.display = 'none';
             authenticItemCtn.style.display = 'none';
             believeItemCtn.style.height = 'auto';
             believeItemCtn.style.padding = '.5rem 3% 0';
@@ -89,7 +75,6 @@ let Head = () => {
             menu.style.display = 'flex';
             aboutItemCtn.style.display = 'none';
             believeItemCtn.style.display = 'none';
-            achieveItemCtn.style.display = 'none';
             authenticItemCtn.style.display = 'none';
         }
         function closeMenu() {
@@ -98,21 +83,15 @@ let Head = () => {
             menu.style.display = 'none';
             aboutItemCtn.style.display = 'none';
             believeItemCtn.style.display = 'none';
-            achieveItemCtn.style.display = 'none';
             authenticItemCtn.style.display = 'none';
         }
-
-
-
     }, [])
     const menuItems = [
         { to: '/', content: 'Home', id: 'home' },
         {to: '', content: 'about us', id: 'about'},
         { to: '', content: 'our believes', id: 'believe' },
-        { to: '', content: 'our achieves', id: 'achieve' },
         { to: '', content: 'authentic items', id: 'authentic' },
         { to: '/join-the-illuminati', content: 'join illumininati', id: 'join' },
-        { to: '/contact-the-illuminati', content: 'contact', id: 'contact' },
     ],
     aboutSub = [
         { to: '/purpose-of-the-illuminati', content: 'purpose of the illuminati' },
@@ -130,25 +109,18 @@ let Head = () => {
         { to: '/eternal-circle', content: 'eternal circle' },
     ],
     tenets = [
-        { to: '/tenet-of-freedom-and-believe', content: 'tenet of freedom and believe' },
-        { to: '/tenet-of-god-and-satan', content: 'tenet of god and satan' },
         { to: '/tenet-for-money-and-aboudance', content: 'tenet for money and aboudance' },
         { to: '/tenet-for-value-and-trade', content: 'tenet for value and trade' },
     ],
-    achievesSubs = [
-        { to: '/our-global-list-agender', content: 'Our Global List Agender', src: globalImg, alt: 'the-illuminati-our-global-list-agender' },
-        { to: '/pendulum-of-power', content: 'Pendulum of Power', src: pendulum, alt: 'illuminati-pendulum-of-power' },
-    ],
     authenticSub = [
-        { to: '/illuminati-talisman', content: 'Illuminati Talisman', src: talisman, alt: 'illuminati-talism' },
-        { to: '/eternal-oath', content: 'Eternal Oath', src: ertenalOath, alt: 'illuminati-ertenal-oath' },
-        { to: '/more-authentic-items', content: 'More Authentic items', src: dodis, alt: 'more-authentic-items' },
+        { href: 'https://dodis.co/collections/talisman?utm_source=illuminatiofficial&utm_medium=mainmenu&utm_campaign=MenuIlluOfficial', content: 'Illuminati Talisman', src: talisman, alt: 'illuminati-talism' },
+        { href: 'https://dodis.co/products/illuminati-eternal-oath?utm_source=illuminatiofficial&utm_medium=mainmenu&utm_campaign=MenuIlluOfficial', content: 'Eternal Oath', src: ertenalOath, alt: 'illuminati-ertenal-oath' },
     ]
     return (
     <React-Fractor>
     <header className="head">
-        <NavLink to='/' className="head__logo">
-            <img src={logo} alt="logo" className="head__logo--img" width='100'  />
+        <NavLink to='/' className="head__logo" id="logo">
+            <img src={logo} alt="illuminati-logo" className="head__logo--img" width='100'  />
         </NavLink>
         <div className="head__menu">
             {menuItems.map(menuItem =>
@@ -185,32 +157,17 @@ let Head = () => {
                         </span>
                     </span>
                 </a>:
-               menuItem.content === 'our achieves' ?
-                    <a href="#" className="head__menu--anchor" key={menuItem.content}>{menuItem.content}
-                    <span className="head__menu--anchor-achieves">
-                        {
-                            achievesSubs.map(
-                            sub => <NavLink to={sub.to} className="head__menu--anchor-achieves-item" key={sub.content} key={sub.content}>
-                            <figure className="head__menu--anchor-achieves-item-figure">
-                                    <img src={sub.src} alt={sub.content} className="head__menu--anchor-achieves-item-figure-img" />
-                                    <figcaption className='head__menu--anchor-achieves-item-figure-cap' >{sub.content}</figcaption>
-                            </figure>
-                            </NavLink>
-                        )
-                    }
-                    </span>
-                </a>:
                 menuItem.content === 'authentic items' ?
                     <a href="#" className="head__menu--anchor" key={menuItem.content}>{menuItem.content}
                     <span className="head__menu--anchor-authentic">
                         {
                             authenticSub.map(
-                            sub => <NavLink to={sub.to} className="head__menu--anchor-authentic-item" key={sub.content} key={sub.content}>
+                                sub => <a href={sub.href} className="head__menu--anchor-authentic-item" key={sub.content} key={sub.content} target="_blank">
                             <figure className="head__menu--anchor-authentic-item-figure">
                                     <img src={sub.src} alt={sub.content} className="head__menu--anchor-authentic-item-figure-img" />
                                     <figcaption className='head__menu--anchor-authentic-item-figure-cap' >{sub.content}</figcaption>
                             </figure>
-                            </NavLink>
+                            </a>
                         )
                     }
                     </span>
@@ -218,14 +175,10 @@ let Head = () => {
                 <NavLink to={menuItem.to} className = "head__menu--anchor" key = { menuItem.content } > { menuItem.content }
                 </NavLink>
             )}
-            <div className="head__menu--title">
-                <h1 className="header__primary">
-                    THE ILLUMINATI GRAND LODGE
-                </h1>
-                <h2 className="header__secondary">
-                    OFFICIAL WEBSITE
-                </h2>
-            </div>
+            <h1 className="head__menu--title">
+                <span className="header__primary">THE ILLUMINATI GRAND LODGE</span>
+                <span className="header__secondary">OFFICIAL WEBSITE</span>
+            </h1>
         </div>
     </header>
     <section className="mobile">
@@ -264,24 +217,13 @@ let Head = () => {
                             }
                         </span>
                     </a>:
-                    item.content === 'our achieves' ?
-                    <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
-                        <span className="span">{item.content} &#8659;</span>
-                        <span className="mobile__menu--list-item-achieves" id="achieveItems">
-                            {
-                                ourBelievesSub.map(
-                                    sub => <NavLink to={sub.to} className="mobile__menu--list-item-achieves-item">{sub.content}</NavLink>
-                                )
-                            }
-                        </span>
-                    </a>: 
                     item.content === 'authentic items' ?
                     <a href="#" className="mobile__menu--list-item" key={item.content} id={item.id}>
                         <span className="span">{item.content} &#8659;</span>
                         <span className="mobile__menu--list-item-authentic" id="authenticItems">
                             {
-                                ourBelievesSub.map(
-                                    sub => <NavLink to={sub.to} className="mobile__menu--list-item-authentic-item">{sub.content}</NavLink>
+                                authenticSub.map(
+                                    sub => <a href={sub.href} className="mobile__menu--list-item-authentic-item" target="_blank">{sub.content}</a>
                                 )
                             }
                         </span>

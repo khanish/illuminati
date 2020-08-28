@@ -1,0 +1,39 @@
+.believe-pyramid {
+    @include believe-pages('./assests/images/the-pyramid1.jpg');
+}
+.believe-eye {
+    @include believe-pages('./assests/images/the-eye-bckg-big.jpg');
+}
+.believe-light {
+    @include believe-pages('./assests/images/the-light-bckg-big.jpg');
+}
+.believe-eternal {
+    @include believe-pages('./assests/images/the-circle-bckg-big.jpg');
+}
+
+.symbolcallout {
+    background: #f7f7f7;
+    max-width: 750px;
+    margin: auto;
+    color: #757575;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 10pt !important;
+    font-weight: 700;
+    line-height: 1.4 !important;
+    border: #e3e3e3 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3.related-topics {
+    font-family: "droid serif", serif !important;
+    color: #81123a !important;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 18pt;
+    font-weight: 800 !important;
+    padding: 20px 5px 5px;
+    text-align: center;
+}

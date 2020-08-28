@@ -12,12 +12,19 @@ import symbolExplainer from '../../assests/images/symbol-explainer.jpg';
 import symbolsCrossedKeys from '../../assests/images/symbols-crossed-keys.png';
 import symbolsEternaCircle from '../../assests/images/symbols-eternal-circle.png';
 import symbolsObelisk from '../../assests/images/symbols-obelisk.png';
+import { Helmet } from 'react-helmet';
 
 let symbols = [pyramid, eye, light, symbolsEternaCircle, symbolsCrossedKeys, symbolsObelisk, symbolsPendulum, symbolsSnakeOuroboros, symbolsOwl, symbolsGoldSun, symbolsMoon, copperEarth ]
 
 function AboutSymbols() {
     return(
         <section className="about-symbols">
+            <Helmet>
+                <title>
+                    illuminati symbols
+                </title>
+                <meta name='description' content="Many citizens have noticed our symbology in artwork, architecture, and visual media. Such displays of loyalty are highly appreciated. However our symbols are not placed in your world for our own glorification, but instead serve as gentle instructions for those who look up from the rocks of Earth and choose to follow the Light." />
+            </Helmet>
             <section className="about-symbols-top">
                 <h1 className="about-symbols-top__title">
                     <span className='about-symbols-top__title-1'>SYMBOLS</span>
@@ -31,7 +38,7 @@ function AboutSymbols() {
                     {
                         symbols.map(
                             symbol =>
-                                <img src={symbol} alt="symbol" className="about-symbols-top__symbols--img"/>
+                                <img src={symbol} alt="joint-illuminati-symbol" className="about-symbols-top__symbols--img"/>
                             )
                     }
                 </section>

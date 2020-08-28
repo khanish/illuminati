@@ -1,0 +1,17 @@
+.joinus {
+    width: 100%;
+    @include form-cover;
+}
+
+.joinus-cover {
+    @include responsive($tablet) {
+        padding-top: 8rem;
+    }
+    @include responsive($mobile) {
+        padding-top: 8.75rem;
+        @media screen and (orientation: landscape) {
+            padding-top: 6rem;
+        }
+    }
+    
+}

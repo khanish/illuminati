@@ -1,9 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function AboutSecreteSociety() {
     return (
         <React-Fractor>
+            <Helmet>
+                <title>
+                    about secrete society
+                </title>
+                <meta name='description' content=" The Illuminati operates in defense of you and all humans, in all places, and of all generations. Our duty to this planet has spanned across centuries and survived even the most established government entities. But the cultivation of trillions of human lives is a daunting responsibility, and while the human would not exist today without our protection, many uninformed masses mistake our guidance for a restriction of liberty." />
+            </Helmet>
             <section className="aboutpurpose">
                 <h1 className="aboutpurpose-title">
                     Freedom is an idol of the human species.

@@ -1,9 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 function AboutWealth() {
     return (
         <React-Fractor>
+            <Helmet>
+                <title>
+                    about waelth
+                </title>
+            </Helmet>
             <section className="aboutpurpose">
                 <h1 className="aboutpurpose-title">
                     It is no coincidence that all world leaders possess vast networks of wealth.

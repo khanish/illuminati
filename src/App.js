@@ -10,12 +10,21 @@ import AboutSecreteSociety from './components/about/aboutsecretesociety';
 import AboutWealth from './components/about/aboutwealth';
 import AboutAge from './components/about/aboutilluage';
 import AboutBillionaires from './components/about/aboutbillionaires';
+import BelievePyramid from './components/our-believes/pyramid';
+import BelieveEye from './components/our-believes/eye';
+import BelieveLight from './components/our-believes/light';
+import BelieveEternal from './components/our-believes/circle';
+import ScrollToTop from './components/scrolltop';
+import JoinUs from './components/Joinus';
+import TenetOfValueAndTrade from './components/our-believes/tenet-of-value-&-trade';
+import TenetOfMoneyAboundance from './components/our-believes/tenet-of-money-&-abondance';
 
 function App() {
   let path = '/illuminati';
   return (
     <React-Fractor>
       <BrowserRouter>
+        <ScrollToTop />
         <Head />
         <Switch>
           <Route path={'/' } exact component={HomeMain} />
@@ -26,6 +35,13 @@ function App() {
           <Route path={'/wealth-of-the-illuminati'} component={AboutWealth} />
           <Route path={'/the-age-of-illuminati'} component={AboutAge} />
           <Route path={'/billionaires-giving-pledge'} component={AboutBillionaires} />
+          <Route path={'/the-pyramid'} component={BelievePyramid} />
+          <Route path={'/the-eye'} component={BelieveEye} />
+          <Route path={'/the-light'} component={BelieveLight} />
+          <Route path={'/eternal-circle'} component={BelieveEternal} />
+          <Route path={'/tenet-for-money-and-aboudance'} component={TenetOfMoneyAboundance} />
+          <Route path={'/tenet-for-value-and-trade'} component={TenetOfValueAndTrade} />
+          <Route path={'/join-the-illuminati'} component={JoinUs} />
           
         </Switch>
         <Footer />

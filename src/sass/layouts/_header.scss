@@ -29,7 +29,7 @@
             height: 70%;
         }
     }
-    &__menu {
+    &__menu, &__menu1 {
         display: flex;
         justify-content: center;
         align-items: flex-end;
@@ -176,13 +176,8 @@
             background: {
             color: $color-secondary;
             }
-            @include responsive($tablet) {
-                padding: .5rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                margin-bottom: 7rem;
+            @media screen and (orientation: landscape) {
+                margin-top: -.05rem;
             }
         }
     }
@@ -241,7 +236,7 @@
                 top: 6.2rem;
             }
             @media screen and (orientation: landscape) {
-                top: 4rem;
+                top: 3.5rem;
                 height: 100vh;
             }
             &-item {

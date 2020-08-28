@@ -21,13 +21,13 @@ function HomeBelieves() {
     return(
         <React-Fractor>
             <section className="home-believes">
-                <div className="home-believes__title header__secondary">OUR CORE BELIEVES</div>
+                <div className="home-believes__title header__secondary">ILLUMINATI CORE BELIEVES</div>
                 <div className="home-believes__ctn">
                     {
                         believes.map(
                             believe => 
                             <div className="home-believes__ctn-believe">
-                                <img src={logo} alt="logo" className="home-believes__ctn-believe-logo" />
+                                <img src={logo} alt="illuminati-logo" className="home-believes__ctn-believe-logo" />
                                 <h3 className="home-believes__ctn-believe-title header__secondary">{believe.title}</h3>
                                 <p className="home-believes__ctn-believe-detail">
                                     {believe.content}
